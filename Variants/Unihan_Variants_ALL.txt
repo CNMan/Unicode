@@ -1,7 +1,7 @@
 #
 # Unihan_Variants.txt
-# Date: 2018-05-18 02:15:26 GMT [JHJ]
-# Unicode version: 11.0.0
+# Date: 2018-11-09 21:36:19 GMT [JHJ]
+# Unicode version: 12.0.0
 #
 # Unicode Character Database
 # © 2018 Unicode®, Inc.
@@ -12006,7 +12006,6 @@
 𧜵	kSimplifiedVariant	䙊
 𧝞	kSimplifiedVariant	䘛
 𧞪	kSemanticVariant	𧙀<kMatthews
-𧠵	kSimplifiedVariant	𬢍
 𧥙	kZVariant	𣁀
 𧩙	kSemanticVariant	誕<kLau,kMeyerWempe
 𧩙	kSimplifiedVariant	䜥
@@ -12385,7 +12384,6 @@
 𬑡	kSemanticVariant	瞅<kFennIndex:T 矁<kFennIndex:T
 𬓼	kTraditionalVariant	穨
 𬘭	kTraditionalVariant	綝
-𬢍	kTraditionalVariant	𧠵
 𬤥	kTraditionalVariant	譔
 𬯎	kTraditionalVariant	隤
 𬸣	kTraditionalVariant	鶱

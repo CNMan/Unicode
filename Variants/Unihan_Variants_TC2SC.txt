@@ -1,3 +1,4 @@
+#		kSimplifiedVariant		
 U+346F	㑯	kSimplifiedVariant	U+3454	㑔
 U+3473	㑳	kSimplifiedVariant	U+3447	㑇
 U+3493	㒓	kSimplifiedVariant	U+20242	𠉂
@@ -472,7 +473,7 @@ U+5F91	徑	kSimplifiedVariant	U+5F84	径
 U+5F9E	從	kSimplifiedVariant	U+4ECE	从
 U+5FA0	徠	kSimplifiedVariant	U+5F95	徕
 U+5FA9	復	kSimplifiedVariant	U+590D	复
-U+5FB5	徵	kSimplifiedVariant	U+5F81	U+5FB5	征	徵
+U+5FB5	徵	kSimplifiedVariant	U+5F81 U+5FB5	征 徵
 U+5FB9	徹	kSimplifiedVariant	U+5F7B	彻
 U+5FD7	志	kSimplifiedVariant	U+5FD7	志
 U+6046	恆	kSimplifiedVariant	U+6052	恒
@@ -2174,7 +2175,7 @@ U+9370	鍰	kSimplifiedVariant	U+953E	锾
 U+9375	鍵	kSimplifiedVariant	U+952E	键
 U+9376	鍶	kSimplifiedVariant	U+9536	锶
 U+937A	鍺	kSimplifiedVariant	U+9517	锗
-U+937E	鍾	kSimplifiedVariant	U+949F	U+953A	钟	锺
+U+937E	鍾	kSimplifiedVariant	U+949F U+953A	钟 锺
 U+9382	鎂	kSimplifiedVariant	U+9541	镁
 U+9384	鎄	kSimplifiedVariant	U+953F	锿
 U+9387	鎇	kSimplifiedVariant	U+9545	镅
@@ -2422,7 +2423,7 @@ U+984E	顎	kSimplifiedVariant	U+989A	颚
 U+984F	顏	kSimplifiedVariant	U+989C	颜
 U+9852	顒	kSimplifiedVariant	U+9899	颙
 U+9853	顓	kSimplifiedVariant	U+989B	颛
-U+9858	願	kSimplifiedVariant	U+613F	U+2B5B8	愿	𫖸
+U+9858	願	kSimplifiedVariant	U+613F U+2B5B8	愿 𫖸
 U+9859	顙	kSimplifiedVariant	U+98A1	颡
 U+985B	顛	kSimplifiedVariant	U+98A0	颠
 U+985E	類	kSimplifiedVariant	U+7C7B	类
@@ -2485,7 +2486,7 @@ U+9914	餔	kSimplifiedVariant	U+2B5E6	𫗦
 U+9915	餕	kSimplifiedVariant	U+9982	馂
 U+9916	餖	kSimplifiedVariant	U+997E	饾
 U+9917	餗	kSimplifiedVariant	U+2B5E7	𫗧
-U+9918	餘	kSimplifiedVariant	U+4F59	U+9980	余	馀
+U+9918	餘	kSimplifiedVariant	U+4F59 U+9980	余 馀
 U+991A	餚	kSimplifiedVariant	U+80B4	肴
 U+991B	餛	kSimplifiedVariant	U+9984	馄
 U+991C	餜	kSimplifiedVariant	U+9983	馃
@@ -2949,7 +2950,6 @@ U+27525	𧔥	kSimplifiedVariant	U+274AD	𧒭
 U+27717	𧜗	kSimplifiedVariant	U+461E	䘞
 U+27735	𧜵	kSimplifiedVariant	U+464A	䙊
 U+2775E	𧝞	kSimplifiedVariant	U+461B	䘛
-U+27835	𧠵	kSimplifiedVariant	U+2C88D	𬢍
 U+27A59	𧩙	kSimplifiedVariant	U+4725	䜥
 U+27CDF	𧳟	kSimplifiedVariant	U+27CD5	𧳕
 U+27D73	𧵳	kSimplifiedVariant	U+478C	䞌
