@@ -1,10 +1,10 @@
 #
 # Unihan_DictionaryLikeData.txt
-# Date: 2020-02-18 18:27:33 GMT [JHJ]
-# Unicode version: 13.0.0
+# Date: 2021-01-25 20:15:08 GMT [JHJ]
+# Unicode version: 14.0.0
 #
 # Unicode Character Database
-# © 2020 Unicode®, Inc.
+# © 2021 Unicode®, Inc.
 # Unicode and the Unicode Logo are registered trademarks of Unicode, Inc. in the U.S. and other countries.
 # For terms of use, see http://www.unicode.org/terms_of_use.html
 # For documentation, see http://www.unicode.org/reports/tr38/
@@ -20,6 +20,7 @@
 #	kHDZRadBreak
 #	kHKGlyph
 #	kPhonetic
+#	kStrange
 #	kUnihanCore2020
 #
 # For details on the file format, see http://www.unicode.org/reports/tr38/
@@ -29,10 +30,12 @@ U+3401	kCangjie	MOW
 U+3401	kCihaiT	37.103
 U+3402	kCangjie	PPP
 U+3403	kCangjie	OML
+U+3403	kStrange	O
 U+3404	kCangjie	JV
 U+3405	kCangjie	K
 U+3405	kCihaiT	47.101
 U+3405	kPhonetic	954 1156
+U+3405	kStrange	B:U+3128
 U+3406	kCangjie	HSMS
 U+3406	kCihaiT	47.405
 U+3407	kCangjie	KNN
@@ -383,8 +386,10 @@ U+3511	kCangjie	TJSH
 U+3512	kCangjie	UBLN
 U+3513	kCangjie	HJKS
 U+3514	kCangjie	KRR
+U+3514	kStrange	H:U+3147
 U+3515	kCangjie	ONKS
 U+3516	kCangjie	KRS
+U+3516	kStrange	H:U+3131
 U+3517	kCangjie	LNKS
 U+3518	kCangjie	UUKS
 U+3519	kCangjie	TTKS
@@ -649,6 +654,7 @@ U+35C8	kCangjie	RNBS
 U+35C9	kCangjie	QHHER
 U+35C9	kCihaiT	286.501
 U+35CA	kCangjie	RRRR
+U+35CA	kStrange	U
 U+35CA	kUnihanCore2020	H
 U+35CB	kCangjie	RNMK
 U+35CB	kCihaiT	287.110
@@ -1278,9 +1284,11 @@ U+379F	kCihaiT	451.101
 U+37A0	kCangjie	SKCF
 U+37A0	kUnihanCore2020	H
 U+37A1	kCangjie	SMMV
+U+37A1	kStrange	U
 U+37A2	kCangjie	UM
 U+37A2	kCihaiT	452.101
 U+37A2	kPhonetic	126 213
+U+37A2	kStrange	B:U+3113
 U+37A3	kCangjie	UCSH
 U+37A4	kCangjie	UO
 U+37A5	kCangjie	UO
@@ -1442,9 +1450,11 @@ U+3828	kCangjie	UDDI
 U+3829	kCangjie	OVHU
 U+3829	kPhonetic	374 922
 U+382A	kCangjie	MYM
+U+382A	kStrange	I:U+6B63
 U+382B	kCangjie	MNQO
 U+382C	kCangjie	MRQO
 U+382D	kCangjie	MMMM
+U+382D	kStrange	U
 U+382D	kUnihanCore2020	H
 U+382E	kCangjie	TAM
 U+382F	kCangjie	SLR
@@ -1943,6 +1953,7 @@ U+39AD	kCangjie	PMBO
 U+39AE	kCangjie	IQ
 U+39AF	kCangjie	IIM
 U+39B0	kCangjie	OOI
+U+39B0	kStrange	I:U+97F1
 U+39B1	kCangjie	MIG
 U+39B2	kCangjie	JIHS
 U+39B3	kCangjie	JIG
@@ -2308,7 +2319,9 @@ U+3AAF	kPhonetic	672 877A
 U+3AB0	kCangjie	YKFD
 U+3AB1	kCangjie	YKNBK
 U+3AB2	kCangjie	YJN
+U+3AB2	kStrange	H:U+3131
 U+3AB3	kCangjie	YJR
+U+3AB3	kStrange	H:U+3147
 U+3AB4	kCangjie	MUYJ
 U+3AB5	kCangjie	FQYJ
 U+3AB6	kCangjie	MAYJ
@@ -2337,7 +2350,9 @@ U+3AC4	kPhonetic	373
 U+3AC5	kCangjie	YSOML
 U+3AC6	kCangjie	YSOF
 U+3AC7	kCangjie	YYN
+U+3AC7	kStrange	H:U+3131
 U+3AC8	kCangjie	YYR
+U+3AC8	kStrange	H:U+3147
 U+3AC9	kCangjie	YSNMU
 U+3ACA	kCangjie	YSOMR
 U+3ACA	kPhonetic	487
@@ -2838,6 +2853,7 @@ U+3C4D	kCangjie	VFYRO
 U+3C4E	kCangjie	WFNO
 U+3C4F	kCangjie	MMYM
 U+3C50	kCangjie	MIMM
+U+3C50	kStrange	I:U+6B66
 U+3C51	kCangjie	YMNI
 U+3C52	kCangjie	YMMNR
 U+3C53	kCangjie	YMOII
@@ -3059,6 +3075,7 @@ U+3D04	kCangjie	EWCR
 U+3D05	kCangjie	EWCR
 U+3D06	kCangjie	ESMB
 U+3D07	kCangjie	EEE
+U+3D07	kStrange	U
 U+3D08	kCangjie	EOMU
 U+3D09	kCangjie	EIIM
 U+3D0A	kCangjie	ETUN
@@ -3164,6 +3181,7 @@ U+3D55	kCangjie	EIIP
 U+3D56	kCangjie	EVRF
 U+3D57	kCangjie	IFE
 U+3D58	kCangjie	EEEE
+U+3D58	kStrange	U
 U+3D59	kCangjie	EGRR
 U+3D5A	kCangjie	ECKC
 U+3D5B	kCangjie	ETTR
@@ -3427,6 +3445,7 @@ U+3E19	kCangjie	CKJKA
 U+3E19	kCihaiT	864.303
 U+3E1A	kCangjie	KKKK
 U+3E1A	kCihaiT	864.402
+U+3E1A	kStrange	U
 U+3E1B	kCangjie	VMSHR
 U+3E1C	kCangjie	VMJCM
 U+3E1D	kCangjie	LLNO
@@ -5145,6 +5164,7 @@ U+439B	kCangjie	JPR
 U+439C	kCangjie	JPJKP
 U+439D	kCangjie	JPSMM
 U+439E	kCangjie	JAS
+U+439E	kStrange	H:U+3131
 U+439F	kCangjie	VMBL
 U+43A0	kCangjie	KIMBL
 U+43A1	kCangjie	MBF
@@ -7247,6 +7267,7 @@ U+4A39	kCangjie	MBOLF
 U+4A39	kCihaiT	1459.604
 U+4A3A	kCangjie	MIMII
 U+4A3B	kCangjie	MWMWW
+U+4A3B	kStrange	S:52 U
 U+4A3C	kCangjie	QBTOE
 U+4A3D	kCangjie	LYSU
 U+4A3E	kCangjie	ILMY
@@ -7377,6 +7398,7 @@ U+4AA1	kPhonetic	139
 U+4AA2	kCangjie	LHIOM
 U+4AA2	kCihaiT	1472.401
 U+4AA3	kCangjie	JHIOM
+U+4AA3	kStrange	I
 U+4AA4	kCangjie	LMHDW
 U+4AA4	kUnihanCore2020	H
 U+4AA5	kCangjie	YCELM
@@ -8011,6 +8033,7 @@ U+4C9A	kCangjie	NFDLC
 U+4C9B	kCangjie	NFTWU
 U+4C9B	kCihaiT	1532.604
 U+4C9C	kCangjie	NFNFF
+U+4C9C	kStrange	S:44 U
 U+4C9D	kCangjie	NMOSU
 U+4C9E	kCangjie	NMYT
 U+4C9F	kCangjie	NMHPL
@@ -8411,6 +8434,7 @@ U+4E02	kCangjie	MVS
 U+4E02	kCihaiT	7.401
 U+4E02	kFenn	240P
 U+4E02	kPhonetic	424
+U+4E02	kStrange	B:U+310E
 U+4E03	kCangjie	JU
 U+4E03	kCihaiT	7.402
 U+4E03	kFenn	326A
@@ -8421,9 +8445,11 @@ U+4E03	kHKGlyph	0003
 U+4E03	kPhonetic	75
 U+4E03	kUnihanCore2020	GHJKMPT
 U+4E04	kCangjie	LM
+U+4E04	kStrange	I:U+4E0A
 U+4E04	kUnihanCore2020	H
 U+4E05	kCangjie	XML
 U+4E05	kCihaiT	10.603
+U+4E05	kStrange	B:U+3112 I:U+4E0B
 U+4E06	kCangjie	XMH
 U+4E07	kCangjie	MS
 U+4E07	kCihaiT	10.604
@@ -8646,6 +8672,7 @@ U+4E29	kCangjie	XXVL
 U+4E29	kCihaiT	37.302
 U+4E29	kFenn	161K
 U+4E29	kPhonetic	583
+U+4E29	kStrange	B:U+3110
 U+4E2A	kCangjie	OL
 U+4E2A	kCihaiT	37.303
 U+4E2A	kFourCornerCode	8020.0
@@ -8659,6 +8686,7 @@ U+4E2B	kFourCornerCode	8020.0 8020.7
 U+4E2B	kFrequency	5
 U+4E2B	kHKGlyph	0019
 U+4E2B	kPhonetic	1
+U+4E2B	kStrange	B:U+311A
 U+4E2B	kUnihanCore2020	GHMT
 U+4E2C	kCangjie	IML
 U+4E2C	kFourCornerCode	3210
@@ -8774,6 +8802,7 @@ U+4E3F	kHDZRadBreak	⼃[U+2F03]:10031.020
 U+4E3F	kUnihanCore2020	GHJ
 U+4E40	kCangjie	XMO
 U+4E40	kCihaiT	46.505
+U+4E40	kStrange	B:U+311F
 U+4E41	kCangjie	XXMO
 U+4E41	kCihaiT	46.506
 U+4E42	kCangjie	K
@@ -8791,6 +8820,7 @@ U+4E43	kHKGlyph	0026
 U+4E43	kPhonetic	938
 U+4E43	kUnihanCore2020	GHJKMPT
 U+4E44	kCangjie	XXKU
+U+4E44	kStrange	C
 U+4E45	kCangjie	NO
 U+4E45	kCihaiT	47.102
 U+4E45	kFenn	430B
@@ -8872,12 +8902,14 @@ U+4E52	kFourCornerCode	7220.1
 U+4E52	kGradeLevel	2
 U+4E52	kHKGlyph	0033
 U+4E52	kPhonetic	1052
+U+4E52	kStrange	I:U+5175
 U+4E52	kUnihanCore2020	GHMT
 U+4E53	kCangjie	OMI
 U+4E53	kCihaiT	46.502
 U+4E53	kFourCornerCode	7203.1
 U+4E53	kGradeLevel	2
 U+4E53	kHKGlyph	0034
+U+4E53	kStrange	I:U+5175
 U+4E53	kUnihanCore2020	GHMT
 U+4E54	kCangjie	HKLL
 U+4E54	kFourCornerCode	2022
@@ -8928,6 +8960,7 @@ U+4E5C	kCihaiT	48.505
 U+4E5C	kFenn	297I
 U+4E5C	kFourCornerCode	4771.2
 U+4E5C	kPhonetic	882
+U+4E5C	kStrange	B:U+31A4
 U+4E5C	kUnihanCore2020	GHMT
 U+4E5D	kCangjie	KN
 U+4E5D	kCihaiT	48.601
@@ -9146,7 +9179,7 @@ U+4E91	kFenn	875F
 U+4E91	kFourCornerCode	1073.1
 U+4E91	kFrequency	4
 U+4E91	kHKGlyph	0050
-U+4E91	kPhonetic	14 332 1298 1441
+U+4E91	kPhonetic	332 1298 1441
 U+4E91	kUnihanCore2020	GHJKMPT
 U+4E92	kCangjie	MVNM
 U+4E92	kCihaiT	64.101
@@ -9719,6 +9752,7 @@ U+4EF8	kCangjie	OHK
 U+4EF8	kUnihanCore2020	H
 U+4EF9	kCangjie	OQJ
 U+4EFA	kCangjie	OSM
+U+4EFA	kStrange	M
 U+4EFB	kCangjie	OHG
 U+4EFB	kCihaiT	88.605
 U+4EFB	kFenn	68D
@@ -12392,7 +12426,7 @@ U+5114	kCihaiT	129.401
 U+5114	kFenn	66I
 U+5114	kFourCornerCode	2424.1
 U+5114	kHKGlyph	0253
-U+5114	kPhonetic	1449
+U+5114	kPhonetic	1149
 U+5114	kUnihanCore2020	HJMT
 U+5115	kCangjie	OYX
 U+5115	kCihaiT	129.403
@@ -13008,6 +13042,7 @@ U+5187	kCangjie	KB
 U+5187	kCheungBauer	013/02;KB;mou5
 U+5187	kFourCornerCode	4022.7
 U+5187	kPhonetic	1517
+U+5187	kStrange	I:U+6709
 U+5187	kUnihanCore2020	HMT
 U+5188	kCangjie	BK
 U+5188	kFourCornerCode	7722
@@ -13804,6 +13839,7 @@ U+5225	kFenn	224aA
 U+5225	kFourCornerCode	6220.0
 U+5225	kFrequency	2
 U+5225	kGradeLevel	2
+U+5225	kPhonetic	1061
 U+5225	kUnihanCore2020	HJKMPT
 U+5226	kCangjie	GILN
 U+5226	kCihaiT	180.201
@@ -14511,6 +14547,7 @@ U+52AB	kFourCornerCode	4772.0
 U+52AB	kFrequency	4
 U+52AB	kGradeLevel	4
 U+52AB	kHKGlyph	0379
+U+52AB	kPhonetic	519
 U+52AB	kUnihanCore2020	GHJKMPT
 U+52AC	kCangjie	PRKS
 U+52AC	kCihaiT	194.601
@@ -15315,6 +15352,7 @@ U+534F	kFrequency	3
 U+534F	kGradeLevel	4
 U+534F	kUnihanCore2020	G
 U+5350	kCangjie	VX
+U+5350	kStrange	M:U+534D
 U+5351	kCangjie	HHJ
 U+5351	kCihaiT	216.208
 U+5351	kFenn	807C
@@ -15932,6 +15970,7 @@ U+53CB	kFourCornerCode	4004.7
 U+53CB	kFrequency	2
 U+53CB	kGradeLevel	1
 U+53CB	kHKGlyph	0464
+U+53CB	kPhonetic	1518
 U+53CB	kUnihanCore2020	GHJKMPT
 U+53CC	kCangjie	EE
 U+53CC	kCihaiT	235.602
@@ -15978,6 +16017,7 @@ U+53D4	kUnihanCore2020	GHJKMPT
 U+53D5	kCangjie	EEEE
 U+53D5	kFenn	534P
 U+53D5	kPhonetic	283
+U+53D5	kStrange	U
 U+53D5	kUnihanCore2020	G
 U+53D6	kCangjie	SJE
 U+53D6	kCihaiT	236.301
@@ -19886,6 +19926,7 @@ U+56CC	kPhonetic	1223A
 U+56CC	kUnihanCore2020	HMT
 U+56CD	kCangjie	GRGRR
 U+56CD	kFourCornerCode	4466.1
+U+56CD	kStrange	F
 U+56CD	kUnihanCore2020	HKMPT
 U+56CE	kCangjie	RBCA
 U+56CE	kFourCornerCode	6806.6
@@ -20030,6 +20071,7 @@ U+56EB	kUnihanCore2020	GHMT
 U+56EC	kCangjie	WSL
 U+56EC	kCihaiT	302.403
 U+56EC	kPhonetic	1464
+U+56EC	kStrange	I:U+9762
 U+56ED	kCangjie	WMMU
 U+56ED	kCihaiT	302.301
 U+56ED	kFourCornerCode	6021
@@ -22151,7 +22193,7 @@ U+58D3	kUnihanCore2020	HJKMPT
 U+58D4	kCangjie	GGNI
 U+58D4	kCihaiT	332.401
 U+58D4	kFourCornerCode	4414.1
-U+58D4	kPhonetic	1449
+U+58D4	kPhonetic	1149
 U+58D4	kUnihanCore2020	HMT
 U+58D5	kCangjie	GYRO
 U+58D5	kCihaiT	332.402
@@ -22249,6 +22291,7 @@ U+58E7	kFourCornerCode	4614.8
 U+58E7	kUnihanCore2020	HMT
 U+58E8	kCangjie	WWWWG
 U+58E8	kFourCornerCode	6610.4
+U+58E8	kStrange	U
 U+58E8	kUnihanCore2020	HMT
 U+58E9	kCangjie	GMBB
 U+58E9	kCihaiT	333.101
@@ -22356,7 +22399,7 @@ U+58FD	kFourCornerCode	4064.1
 U+58FD	kFrequency	4
 U+58FD	kGradeLevel	4
 U+58FD	kHKGlyph	0825
-U+58FD	kPhonetic	445 1449
+U+58FD	kPhonetic	445 1149
 U+58FD	kUnihanCore2020	HJKMPT
 U+58FE	kCangjie	GTSS
 U+58FE	kFourCornerCode	4111.7
@@ -22367,7 +22410,7 @@ U+58FF	kFourCornerCode	4814.6
 U+58FF	kUnihanCore2020	HMT
 U+5900	kCangjie	QMRDI
 U+5900	kCihaiT	537.601
-U+5900	kPhonetic	445 1449
+U+5900	kPhonetic	445 1149
 U+5901	kCangjie	GWLW
 U+5902	kCangjie	HE
 U+5902	kCihaiT	334.602
@@ -24973,6 +25016,7 @@ U+5B51	kHKGlyph	0970
 U+5B51	kUnihanCore2020	GHJKMPT
 U+5B52	kCangjie	XNNM
 U+5B52	kCihaiT	396.601
+U+5B52	kStrange	I:U+5B50
 U+5B53	kCangjie	NNO
 U+5B53	kFourCornerCode	1740.0
 U+5B53	kHKGlyph	0971
@@ -27239,7 +27283,7 @@ U+5D14	kPhonetic	285 293
 U+5D14	kUnihanCore2020	GHJKMPT
 U+5D15	kCangjie	UMGG
 U+5D15	kFourCornerCode	2171.4
-U+5D15	kPhonetic	953
+U+5D15	kPhonetic	953*
 U+5D15	kUnihanCore2020	HJ
 U+5D16	kCangjie	UMGG
 U+5D16	kCihaiT	459.201
@@ -27247,6 +27291,7 @@ U+5D16	kFenn	50F
 U+5D16	kFourCornerCode	2221.4
 U+5D16	kFrequency	5
 U+5D16	kHKGlyph	1112
+U+5D16	kPhonetic	953
 U+5D16	kUnihanCore2020	GHJKMPT
 U+5D17	kCangjie	UBTU
 U+5D17	kCihaiT	459.605
@@ -27973,6 +28018,7 @@ U+5DDB	kPhonetic	124 273
 U+5DDB	kUnihanCore2020	GHJ
 U+5DDC	kCangjie	XVV
 U+5DDC	kCihaiT	462.201
+U+5DDC	kStrange	B:U+310D I:U+5DDB
 U+5DDD	kCangjie	LLL
 U+5DDD	kCihaiT	462.202
 U+5DDD	kFenn	425E
@@ -28067,6 +28113,7 @@ U+5DE9	kFrequency	5
 U+5DE9	kPhonetic	684 689
 U+5DE9	kUnihanCore2020	G
 U+5DEA	kCangjie	XSSN
+U+5DEA	kStrange	H:U+3131
 U+5DEA	kUnihanCore2020	P
 U+5DEB	kCangjie	MOO
 U+5DEB	kCihaiT	466.201
@@ -28183,6 +28230,7 @@ U+5DFF	kUnihanCore2020	HMT
 U+5E00	kCangjie	MLB
 U+5E00	kCihaiT	470.401
 U+5E00	kPhonetic	34 1013
+U+5E00	kStrange	B:U+312D
 U+5E01	kCangjie	HLB
 U+5E01	kFourCornerCode	2022
 U+5E01	kFrequency	4
@@ -28709,7 +28757,7 @@ U+5E6B	kUnihanCore2020	HMT
 U+5E6C	kCangjie	LBGNI
 U+5E6C	kCihaiT	479.503
 U+5E6C	kFourCornerCode	4424.1
-U+5E6C	kPhonetic	1449
+U+5E6C	kPhonetic	1149
 U+5E6C	kUnihanCore2020	HMT
 U+5E6D	kCangjie	LBTWI
 U+5E6D	kCihaiT	479.506
@@ -37192,7 +37240,7 @@ U+64E2	kUnihanCore2020	GHJKMPT
 U+64E3	kCangjie	QGNI
 U+64E3	kCihaiT	595.401
 U+64E3	kFourCornerCode	5404.1
-U+64E3	kPhonetic	1449
+U+64E3	kPhonetic	1149
 U+64E3	kUnihanCore2020	HJMT
 U+64E4	kCangjie	QHUL
 U+64E4	kCihaiT	595.602
@@ -40029,6 +40077,7 @@ U+6723	kFourCornerCode	7021.4
 U+6723	kPhonetic	1406
 U+6723	kUnihanCore2020	HMT
 U+6724	kCangjie	BBBB
+U+6724	kStrange	U
 U+6725	kCangjie	BFFS
 U+6725	kUnihanCore2020	H
 U+6726	kCangjie	BTBO
@@ -41820,6 +41869,7 @@ U+68A2	kUnihanCore2020	GHJKMPT
 U+68A3	kCangjie	DUON
 U+68A3	kCihaiT	702.205
 U+68A3	kFourCornerCode	4292.7
+U+68A3	kPhonetic	1122*
 U+68A3	kUnihanCore2020	GHMT
 U+68A4	kCangjie	DUCH
 U+68A4	kFourCornerCode	4292.7
@@ -42663,7 +42713,7 @@ U+6961	kCangjie	DOMV
 U+6961	kCihaiT	709.402
 U+6961	kFenn	619F
 U+6961	kFourCornerCode	4892.1
-U+6961	kPhonetic	1611
+U+6961	kPhonetic	1611*
 U+6961	kUnihanCore2020	HJKP
 U+6962	kCangjie	DTCW
 U+6962	kCihaiT	711.501
@@ -42838,6 +42888,7 @@ U+6985	kUnihanCore2020	GH
 U+6986	kCangjie	DOMN
 U+6986	kFourCornerCode	4892.1
 U+6986	kHKGlyph	1971
+U+6986	kPhonetic	1611
 U+6986	kUnihanCore2020	GHMT
 U+6987	kCangjie	DYTD
 U+6987	kFourCornerCode	4099
@@ -42892,6 +42943,7 @@ U+6995	kUnihanCore2020	GHJKMPT
 U+6996	kCangjie	GDHNE
 U+6996	kCihaiT	712.102
 U+6996	kFourCornerCode	4794.7
+U+6996	kPhonetic	493
 U+6996	kUnihanCore2020	GHMT
 U+6997	kCangjie	DMIA
 U+6997	kFourCornerCode	4196.1
@@ -44098,7 +44150,7 @@ U+6AAD	kUnihanCore2020	HMT
 U+6AAE	kCangjie	DGNI
 U+6AAE	kCihaiT	725.402
 U+6AAE	kFourCornerCode	4494.1
-U+6AAE	kPhonetic	1449
+U+6AAE	kPhonetic	1149
 U+6AAE	kUnihanCore2020	HJMT
 U+6AAF	kCangjie	DGRG
 U+6AAF	kCihaiT	725.403
@@ -50343,7 +50395,7 @@ U+6FE4	kFourCornerCode	3414.1
 U+6FE4	kFrequency	4
 U+6FE4	kGradeLevel	4
 U+6FE4	kHKGlyph	2338
-U+6FE4	kPhonetic	1449
+U+6FE4	kPhonetic	1149
 U+6FE4	kUnihanCore2020	HJKMPT
 U+6FE5	kCangjie	ENIC
 U+6FE6	kCangjie	EBMP
@@ -52430,9 +52482,11 @@ U+71D9	kPhonetic	1380
 U+71D9	kUnihanCore2020	HMT
 U+71DA	kCangjie	FFFF
 U+71DA	kFourCornerCode	9988.9
+U+71DA	kStrange	U
 U+71DA	kUnihanCore2020	GHMT
 U+71DB	kCangjie	SSF
 U+71DB	kFourCornerCode	1180.9
+U+71DB	kStrange	F
 U+71DB	kUnihanCore2020	HMT
 U+71DC	kCangjie	FANP
 U+71DC	kCihaiT	860.306
@@ -52574,7 +52628,7 @@ U+71FD	kUnihanCore2020	HMT
 U+71FE	kCangjie	GNMF
 U+71FE	kCihaiT	861.505
 U+71FE	kFourCornerCode	4033.4
-U+71FE	kPhonetic	1449
+U+71FE	kPhonetic	1149
 U+71FE	kUnihanCore2020	HKMPT
 U+71FF	kCangjie	FSMG
 U+71FF	kCihaiT	861.506
@@ -56647,7 +56701,7 @@ U+7587	kFenn	66K
 U+7587	kFourCornerCode	6404.1
 U+7587	kFrequency	5
 U+7587	kHKGlyph	2633
-U+7587	kPhonetic	1449
+U+7587	kPhonetic	1149
 U+7587	kUnihanCore2020	HJKMPT
 U+7588	kCangjie	MWILW
 U+7588	kCihaiT	918.601
@@ -60561,7 +60615,6 @@ U+78D5	kPhonetic	508
 U+78D5	kUnihanCore2020	GHMT
 U+78D6	kCangjie	MRSMA
 U+78D7	kCangjie	MRIBI
-U+78D7	kPhonetic	269
 U+78D7	kUnihanCore2020	H
 U+78D8	kCangjie	MRBOU
 U+78D8	kUnihanCore2020	H
@@ -60574,6 +60627,7 @@ U+78DA	kFourCornerCode	1564.3
 U+78DA	kFrequency	5
 U+78DA	kGradeLevel	4
 U+78DA	kHKGlyph	2843
+U+78DA	kPhonetic	269
 U+78DA	kUnihanCore2020	HJMT
 U+78DB	kCangjie	JLMR
 U+78DB	kFourCornerCode	5260.1
@@ -61242,7 +61296,7 @@ U+7976	kCangjie	IFCNH
 U+7977	kCangjie	IFQKI
 U+7977	kFourCornerCode	3424.1
 U+7977	kFrequency	5
-U+7977	kPhonetic	1449
+U+7977	kPhonetic	1149
 U+7977	kUnihanCore2020	GJ
 U+7978	kCangjie	IFROB
 U+7978	kFourCornerCode	3622
@@ -61496,6 +61550,7 @@ U+79B1	kFourCornerCode	3424.1
 U+79B1	kFrequency	5
 U+79B1	kGradeLevel	5
 U+79B1	kHKGlyph	2887
+U+79B1	kPhonetic	1149*
 U+79B1	kUnihanCore2020	HJKMPT
 U+79B2	kCangjie	IFMTB
 U+79B2	kFourCornerCode	3122.7
@@ -64520,7 +64575,7 @@ U+7C4C	kFourCornerCode	8864.1
 U+7C4C	kFrequency	4
 U+7C4C	kGradeLevel	4
 U+7C4C	kHKGlyph	3025
-U+7C4C	kPhonetic	1449
+U+7C4C	kPhonetic	1149
 U+7C4C	kUnihanCore2020	HJKMPT
 U+7C4D	kCangjie	HQDA
 U+7C4D	kCihaiT	1023.201
@@ -68892,7 +68947,7 @@ U+7FFE	kUnihanCore2020	GHMT
 U+7FFF	kCangjie	GISMM
 U+7FFF	kCihaiT	1077.301
 U+7FFF	kFourCornerCode	4762.0
-U+7FFF	kPhonetic	1449
+U+7FFF	kPhonetic	1149
 U+7FFF	kUnihanCore2020	HMT
 U+8000	kCangjie	FUSMG
 U+8000	kCihaiT	1077.203
@@ -68914,6 +68969,7 @@ U+8001	kHKGlyph	3228
 U+8001	kPhonetic	824
 U+8001	kUnihanCore2020	GHJKMPT
 U+8002	kCangjie	JK
+U+8002	kStrange	I:U+8001
 U+8002	kUnihanCore2020	H
 U+8003	kCangjie	JKYS
 U+8003	kCihaiT	1079.101
@@ -69493,6 +69549,7 @@ U+807F	kPhonetic	860 1372
 U+807F	kUnihanCore2020	GHJKMPT
 U+8080	kCangjie	XL
 U+8080	kFourCornerCode	5000
+U+8080	kStrange	I:U+807F
 U+8080	kUnihanCore2020	GH
 U+8081	kCangjie	ISLQ
 U+8082	kCangjie	MNLQ
@@ -71267,6 +71324,7 @@ U+81E5	kPhonetic	968
 U+81E5	kUnihanCore2020	HJKMPT
 U+81E6	kCangjie	SLSLL
 U+81E6	kFourCornerCode	1111.7
+U+81E6	kStrange	F:U+268E6
 U+81E6	kUnihanCore2020	HMT
 U+81E7	kCangjie	IMSLL
 U+81E7	kCihaiT	1106.402
@@ -71286,6 +71344,7 @@ U+81E8	kPhonetic	776A 1021
 U+81E8	kUnihanCore2020	HJKMPT
 U+81E9	kCangjie	SSKLL
 U+81E9	kFourCornerCode	1122.3
+U+81E9	kStrange	F
 U+81E9	kUnihanCore2020	HMT
 U+81EA	kCangjie	HBU
 U+81EA	kCihaiT	1108.301
@@ -72912,6 +72971,7 @@ U+833A	kFourCornerCode	4421.3
 U+833A	kUnihanCore2020	GHMT
 U+833B	kCangjie	UUUU
 U+833B	kFourCornerCode	2244.7
+U+833B	kStrange	U
 U+833B	kUnihanCore2020	HMT
 U+833C	kCangjie	TBMR
 U+833C	kCihaiT	1139.103
@@ -73524,6 +73584,7 @@ U+83CA	kFourCornerCode	4492.7
 U+83CA	kFrequency	5
 U+83CA	kGradeLevel	2
 U+83CA	kHKGlyph	3486
+U+83CA	kPhonetic	680
 U+83CA	kUnihanCore2020	GHJKMPT
 U+83CB	kCangjie	TRJD
 U+83CB	kCihaiT	1147.404
@@ -73870,7 +73931,7 @@ U+8410	kUnihanCore2020	HMT
 U+8411	kCangjie	TOG
 U+8411	kCihaiT	1147.401
 U+8411	kFourCornerCode	4421.4
-U+8411	kPhonetic	216 285
+U+8411	kPhonetic	216x 285
 U+8411	kUnihanCore2020	GHMT
 U+8412	kCangjie	TYCU
 U+8412	kFourCornerCode	4421.3
@@ -75212,6 +75273,7 @@ U+8549	kFourCornerCode	4433.1
 U+8549	kFrequency	5
 U+8549	kGradeLevel	2
 U+8549	kHKGlyph	3539
+U+8549	kPhonetic	216
 U+8549	kUnihanCore2020	GHJKMPT
 U+854A	kCangjie	TPPP
 U+854A	kCihaiT	1167.501
@@ -77554,6 +77616,7 @@ U+8752	kUnihanCore2020	HMT
 U+8753	kCangjie	LIOMN
 U+8753	kCihaiT	1193.406
 U+8753	kFourCornerCode	5812.1
+U+8753	kPhonetic	1611*
 U+8753	kUnihanCore2020	GHJMT
 U+8754	kCangjie	LIPPA
 U+8754	kFourCornerCode	5116.1
@@ -79416,6 +79479,7 @@ U+88DD	kUnihanCore2020	HJKMPT
 U+88DE	kCangjie	LCRU
 U+88DE	kCihaiT	1214.601
 U+88DE	kFourCornerCode	3821.6
+U+88DE	kPhonetic	1392*
 U+88DE	kUnihanCore2020	HMT
 U+88DF	kCangjie	EHYHV
 U+88DF	kCihaiT	1215.204
@@ -82550,7 +82614,7 @@ U+8B77	kUnihanCore2020	HJKMPT
 U+8B78	kCangjie	YRGNI
 U+8B78	kCihaiT	1257.201
 U+8B78	kFourCornerCode	0464.1
-U+8B78	kPhonetic	1449
+U+8B78	kPhonetic	1149
 U+8B78	kUnihanCore2020	HMT
 U+8B79	kCangjie	YRYRO
 U+8B79	kFourCornerCode	0063.2
@@ -83664,6 +83728,7 @@ U+8C8C	kFourCornerCode	2621.0
 U+8C8C	kFrequency	4
 U+8C8C	kGradeLevel	2
 U+8C8C	kHKGlyph	3891
+U+8C8C	kPhonetic	871
 U+8C8C	kUnihanCore2020	GHJKMPT
 U+8C8D	kCangjie	BHWG
 U+8C8D	kCihaiT	1266.601
@@ -83676,7 +83741,6 @@ U+8C8D	kUnihanCore2020	HJMT
 U+8C8E	kCangjie	BHHXU
 U+8C8E	kCihaiT	1267.205
 U+8C8E	kFourCornerCode	2721.7
-U+8C8E	kPhonetic	871
 U+8C8E	kUnihanCore2020	J
 U+8C8F	kCangjie	BHHHJ
 U+8C8F	kCihaiT	1267.204
@@ -85511,7 +85575,7 @@ U+8E0B	kCangjie	RMGIL
 U+8E0C	kCangjie	RMQKI
 U+8E0C	kFourCornerCode	6514
 U+8E0C	kFrequency	5
-U+8E0C	kPhonetic	1449
+U+8E0C	kPhonetic	1149
 U+8E0C	kUnihanCore2020	G
 U+8E0D	kCangjie	RMJKD
 U+8E0D	kFourCornerCode	6414.7
@@ -90106,7 +90170,7 @@ U+91BA	kPhonetic	350
 U+91BA	kUnihanCore2020	GHJMT
 U+91BB	kCangjie	MWGNI
 U+91BB	kCihaiT	1356.107
-U+91BB	kPhonetic	1449
+U+91BB	kPhonetic	1149
 U+91BB	kUnihanCore2020	H
 U+91BC	kCangjie	MWTLF
 U+91BC	kCihaiT	1356.108
@@ -92843,7 +92907,7 @@ U+9444	kFourCornerCode	8414.1
 U+9444	kFrequency	5
 U+9444	kGradeLevel	6
 U+9444	kHKGlyph	4318
-U+9444	kPhonetic	1449
+U+9444	kPhonetic	1149
 U+9444	kUnihanCore2020	HJKMPT
 U+9445	kCangjie	CFFD
 U+9445	kFourCornerCode	8919.4
@@ -95638,6 +95702,7 @@ U+96E5	kCangjie	OGOGG
 U+96E5	kFourCornerCode	2021.4
 U+96E5	kUnihanCore2020	HMT
 U+96E6	kCangjie	XOGOG
+U+96E6	kStrange	U
 U+96E7	kCangjie	OGOGD
 U+96E7	kCihaiT	1446.402
 U+96E8	kCangjie	MLBY
@@ -95906,6 +95971,7 @@ U+971A	kCihaiT	1456.302
 U+971B	kCangjie	MBNNN
 U+971B	kCihaiT	1456.303
 U+971B	kPhonetic	685
+U+971B	kStrange	U
 U+971B	kUnihanCore2020	H
 U+971C	kCangjie	MBDBU
 U+971C	kCihaiT	1456.104
@@ -97366,6 +97432,7 @@ U+984F	kFourCornerCode	0128.6
 U+984F	kFrequency	4
 U+984F	kGradeLevel	2
 U+984F	kHKGlyph	4517
+U+984F	kPhonetic	1580
 U+984F	kUnihanCore2020	HJMT
 U+9850	kCangjie	BJMBC
 U+9850	kCihaiT	1480.403
@@ -97389,7 +97456,6 @@ U+9853	kUnihanCore2020	HMT
 U+9854	kCangjie	YHMBC
 U+9854	kFenn	284B
 U+9854	kFourCornerCode	0128.6
-U+9854	kPhonetic	1580
 U+9854	kUnihanCore2020	JKP
 U+9855	kCangjie	ACMBC
 U+9855	kFourCornerCode	6118.6
@@ -98137,6 +98203,7 @@ U+9905	kFourCornerCode	8874.1
 U+9905	kFrequency	4
 U+9905	kGradeLevel	1
 U+9905	kHKGlyph	4550
+U+9905	kPhonetic	1055
 U+9905	kUnihanCore2020	HJMT
 U+9906	kCangjie	OILMO
 U+9907	kCangjie	OIBMR
@@ -98276,7 +98343,6 @@ U+991F	kUnihanCore2020	HMT
 U+9920	kCangjie	OIYJJ
 U+9920	kCihaiT	1493.202
 U+9920	kFourCornerCode	8874.1
-U+9920	kPhonetic	1055
 U+9920	kUnihanCore2020	JKP
 U+9921	kCangjie	OINHX
 U+9921	kCihaiT	1493.401
@@ -100196,6 +100262,7 @@ U+9AE9	kCangjie	SHMLS
 U+9AE9	kPhonetic	898
 U+9AEA	kCangjie	SHKE
 U+9AEA	kFourCornerCode	7244.7
+U+9AEA	kPhonetic	1027
 U+9AEA	kUnihanCore2020	J
 U+9AEB	kCangjie	SHSHR
 U+9AEB	kCihaiT	1518.503
@@ -100220,7 +100287,7 @@ U+9AEE	kFourCornerCode	7244.7
 U+9AEE	kFrequency	4
 U+9AEE	kGradeLevel	3
 U+9AEE	kHKGlyph	4625
-U+9AEE	kPhonetic	1027
+U+9AEE	kPhonetic	1027*
 U+9AEE	kUnihanCore2020	HJKMPT
 U+9AEF	kCangjie	SHGB
 U+9AEF	kCihaiT	1518.603
@@ -100719,7 +100786,7 @@ U+9B56	kFourCornerCode	2111.1
 U+9B56	kUnihanCore2020	HMT
 U+9B57	kCangjie	GIHUI
 U+9B57	kCihaiT	1524.205
-U+9B57	kPhonetic	1449
+U+9B57	kPhonetic	1149
 U+9B58	kCangjie	MKHI
 U+9B58	kCihaiT	1524.203
 U+9B58	kFenn	195K
@@ -104645,6 +104712,7 @@ U+9F50	kCangjie	YKLL
 U+9F50	kFourCornerCode	0022
 U+9F50	kFrequency	4
 U+9F50	kPhonetic	56 877
+U+9F50	kStrange	I:U+6589
 U+9F50	kUnihanCore2020	GH
 U+9F51	kCangjie	YKLLL
 U+9F51	kFourCornerCode	0022
@@ -104959,6 +105027,7 @@ U+9F97	kCangjie	MBRRP
 U+9F97	kUnihanCore2020	H
 U+9F98	kCangjie	YPYBP
 U+9F98	kFourCornerCode	0121.1
+U+9F98	kStrange	S:48
 U+9F98	kUnihanCore2020	HMT
 U+9F99	kCangjie	IKP
 U+9F99	kFourCornerCode	4301
@@ -105039,6 +105108,7 @@ U+9FAE	kUnihanCore2020	H
 U+9FAF	kCangjie	CIH
 U+9FAF	kUnihanCore2020	H
 U+9FB0	kCangjie	YO
+U+9FB0	kStrange	I:U+8DB3
 U+9FB0	kUnihanCore2020	H
 U+9FB1	kCangjie	WK
 U+9FB1	kUnihanCore2020	H
@@ -105201,14 +105271,22 @@ U+FA67	kUnihanCore2020	J
 U+FA68	kUnihanCore2020	J
 U+FA69	kUnihanCore2020	J
 U+20000	kCihaiT	10.602
+U+20000	kStrange	B:U+311B
 U+20001	kCihaiT	10.601
 U+20001	kPhonetic	1635
 U+20005	kCangjie	YVHO
 U+20005	kCihaiT	29.603
+U+20005	kStrange	B:U+311E
 U+20009	kCihaiT	34.601
 U+2000D	kCihaiT	37.101
+U+20016	kStrange	I:U+5171
+U+20017	kStrange	I:U+5171
 U+20021	kCangjie	MHGU
 U+20021	kUnihanCore2020	H
+U+2002A	kStrange	I:U+5176
+U+2002B	kStrange	I:U+5176
+U+20035	kStrange	I
+U+2003D	kStrange	I
 U+2003E	kCangjie	MFOMI
 U+2003E	kUnihanCore2020	H
 U+20041	kPhonetic	1324
@@ -105216,9 +105294,15 @@ U+20046	kCangjie	MFJBM
 U+20046	kUnihanCore2020	H
 U+2004E	kCangjie	YJMY
 U+2004E	kUnihanCore2020	H
+U+20060	kStrange	U
+U+20063	kStrange	I:U+9580
+U+20064	kStrange	I:U+897F
 U+20065	kCihaiT	43.501
 U+20068	kCangjie	SML
 U+20068	kUnihanCore2020	H
+U+20069	kStrange	U
+U+2006E	kStrange	U
+U+20080	kStrange	I:U+4E3C
 U+20086	kCangjie	XH
 U+20086	kCihaiT	46.507
 U+20086	kUnihanCore2020	H
@@ -105228,52 +105312,84 @@ U+20087	kPhonetic	1518
 U+20087	kUnihanCore2020	H
 U+2008A	kCangjie	HN
 U+2008A	kUnihanCore2020	H
+U+20092	kStrange	I:U+751F
 U+20094	kCangjie	LXH
 U+20094	kCihaiT	47.302
 U+20094	kFenn	250P
 U+20094	kPhonetic	139
 U+20094	kUnihanCore2020	H
+U+20099	kStrange	I:U+8012
+U+2009A	kStrange	I:U+4E54
+U+2009B	kStrange	I:U+4F01
+U+2009C	kStrange	M:U+2009B
 U+200A2	kCihaiT	47.401
 U+200A2	kFenn	350P
 U+200A2	kPhonetic	1000
 U+200A4	kCihaiT	47.406
 U+200A4	kPhonetic	1389
+U+200AD	kStrange	U
+U+200B3	kStrange	I:U+25F9C
 U+200B9	kCihaiT	48.201
 U+200C9	kCihaiT	48.501
 U+200CA	kCihaiT	48.502
+U+200CA	kStrange	B:U+31B9
 U+200CA	kUnihanCore2020	H
 U+200CB	kCihaiT	48.504
+U+200CB	kStrange	B:U+3125
 U+200CB	kUnihanCore2020	H
 U+200CC	kCangjie	XS
 U+200CC	kUnihanCore2020	H
+U+200CD	kStrange	H:U+3131
 U+200CD	kUnihanCore2020	H
+U+200CF	kStrange	I:U+6BD4
 U+200D1	kCihaiT	48.503
 U+200D1	kUnihanCore2020	H
 U+200D2	kCihaiT	55.201
+U+200D2	kStrange	B:U+311D I:U+4E16
 U+200D3	kPhonetic	1529 1559
 U+200D4	kPhonetic	1444
+U+200DB	kStrange	I:U+9580
+U+200E0	kStrange	O
+U+200EC	kStrange	U
 U+200EE	kCangjie	NSE
 U+200EE	kUnihanCore2020	H
 U+200F6	kPhonetic	834
 U+2010C	kPhonetic	666
 U+2010C	kUnihanCore2020	H
 U+2010E	kCihaiT	58.201
+U+2010E	kStrange	B:U+310B
 U+2010E	kUnihanCore2020	H
 U+2010F	kCihaiT	58.202
+U+2010F	kStrange	R:U+4E86
+U+20114	kStrange	R:U+4E88
 U+20118	kCangjie	NNQO
+U+20118	kStrange	I:U+627F
 U+20118	kUnihanCore2020	H
+U+20119	kStrange	I:U+4E8B
+U+2011E	kStrange	U
+U+2011F	kStrange	U
+U+20120	kStrange	U
 U+20123	kPhonetic	579
+U+20137	kStrange	O
+U+20141	kStrange	M:U+4EA1
+U+20149	kStrange	I
 U+20159	kPhonetic	622
+U+2015B	kStrange	I
 U+20164	kUnihanCore2020	G
+U+2017E	kStrange	I
+U+2018F	kStrange	U
 U+201A4	kUnihanCore2020	H
 U+201A9	kCangjie	OHNI
 U+201A9	kCheungBauer	009/03;OHNI;faan2
 U+201A9	kUnihanCore2020	H
 U+201AB	kCangjie	ODH
 U+201AB	kUnihanCore2020	H
+U+201AD	kStrange	C
+U+201B1	kStrange	I:U+2CF6B
 U+201C1	kCangjie	ONL
 U+201C1	kUnihanCore2020	H
 U+201C6	kPhonetic	34
+U+201C7	kStrange	C
 U+201D4	kCangjie	OHQU
 U+201D4	kUnihanCore2020	H
 U+201D7	kCihaiT	100.203
@@ -105286,6 +105402,7 @@ U+20203	kCihaiT	104.303
 U+20204	kCangjie	OSLL
 U+20204	kUnihanCore2020	H
 U+2020C	kCangjie	OOOO
+U+2020C	kStrange	U
 U+2020C	kUnihanCore2020	H
 U+20214	kCangjie	OYMT
 U+20214	kUnihanCore2020	H
@@ -105337,6 +105454,7 @@ U+20346	kCangjie	OTHN
 U+20346	kUnihanCore2020	H
 U+20347	kCangjie	OYED
 U+20347	kUnihanCore2020	H
+U+2034B	kStrange	C
 U+20360	kCihaiT	125.202
 U+2037D	kPhonetic	95
 U+2037E	kCangjie	OSAV
@@ -105370,6 +105488,7 @@ U+20414	kUnihanCore2020	H
 U+2041F	kCangjie	OJKF
 U+2041F	kUnihanCore2020	H
 U+20424	kCihaiT	130.403
+U+20432	kStrange	R
 U+20458	kCihaiT	131.102
 U+20465	kCangjie	OHGI
 U+20465	kUnihanCore2020	H
@@ -105401,6 +105520,7 @@ U+204CF	kCihaiT	141.102
 U+204CF	kPhonetic	179
 U+204D7	kCangjie	NINII
 U+204D7	kUnihanCore2020	H
+U+204D9	kStrange	U
 U+204EA	kCihaiT	147.401
 U+204FC	kCangjie	ODOJ
 U+204FC	kCheungBauer	011/14;ODOJ;sip3
@@ -105410,14 +105530,21 @@ U+204FE	kUnihanCore2020	H
 U+20509	kFenn	466P
 U+20509	kPhonetic	664 1209
 U+20533	kPhonetic	804
+U+2053B	kStrange	S:64 U
 U+2053C	kCihaiT	164.202
+U+2053E	kStrange	I:U+821F
 U+20541	kPhonetic	1103A
 U+20542	kCihaiT	164.503
 U+20544	kCheungBauer	013/05;;nap1
+U+20544	kStrange	R:U+51F9
+U+20546	kStrange	I:U+6709
 U+20547	kCangjie	KBI
 U+20547	kUnihanCore2020	H
 U+2054B	kCihaiT	165.201
+U+2055E	kStrange	U
+U+20562	kStrange	U
 U+20566	kCihaiT	165.503
+U+20572	kStrange	U
 U+2058E	kCangjie	BEEE
 U+2058E	kUnihanCore2020	H
 U+205A5	kCangjie	BYBP
@@ -105440,6 +105567,7 @@ U+205E0	kCangjie	IMNDT
 U+205E0	kUnihanCore2020	H
 U+205EB	kCangjie	IMNBK
 U+205EB	kUnihanCore2020	H
+U+205F1	kStrange	O
 U+20611	kCangjie	IMSUF
 U+20611	kUnihanCore2020	H
 U+20615	kCangjie	IMSUF
@@ -105453,14 +105581,21 @@ U+20630	kUnihanCore2020	H
 U+20646	kCihaiT	171.104
 U+20656	kCangjie	ISHN
 U+20656	kUnihanCore2020	H
+U+20658	kStrange	U
 U+20666	kPhonetic	1587
 U+20674	kCihaiT	171.304
+U+20674	kStrange	U
 U+20676	kCangjie	NNU
 U+20676	kUnihanCore2020	GH
 U+20679	kCihaiT	171.502
 U+2067D	kCihaiT	171.501
 U+2067D	kPhonetic	336
+U+20692	kStrange	U
+U+20696	kStrange	O
+U+2069C	kStrange	O
+U+206A1	kStrange	O
 U+206A3	kCihaiT	174.102
+U+206A3	kStrange	B:U+3109
 U+206BA	kFenn	122K
 U+206CE	kCihaiT	178.403
 U+206EC	kCihaiT	181.102
@@ -105474,6 +105609,7 @@ U+20731	kUnihanCore2020	H
 U+20736	kCihaiT	186.502
 U+20736	kPhonetic	985 1353A
 U+2073E	kCihaiT	186.403
+U+2074E	kStrange	A
 U+2076D	kCheungBauer	018/09;;peng2
 U+20779	kCangjie	WLLN
 U+20779	kCheungBauer	018/09;WLLN;gaai3
@@ -105493,6 +105629,7 @@ U+208A4	kCihaiT	199.501
 U+208D5	kCangjie	PYG
 U+208D5	kUnihanCore2020	H
 U+208D8	kCihaiT	201.302
+U+20908	kStrange	U
 U+2090E	kCihaiT	201.601
 U+2090E	kPhonetic	75
 U+2090F	kCihaiT	203.201
@@ -105500,17 +105637,26 @@ U+2090F	kPhonetic	1033 1067
 U+20915	kPhonetic	159 1538
 U+20916	kCangjie	LPQ
 U+20916	kUnihanCore2020	H
+U+2091C	kStrange	M:U+20917
 U+20923	kCangjie	HBLMP
 U+20923	kUnihanCore2020	H
+U+20936	kStrange	I
+U+20953	kStrange	O
 U+20954	kCangjie	SOOG
 U+20954	kUnihanCore2020	H
 U+20959	kCihaiT	206.501
+U+20967	kStrange	O
+U+20969	kStrange	O
+U+2096A	kStrange	O
+U+2096B	kStrange	O
+U+2096C	kStrange	O
 U+20979	kCangjie	SRHRF
 U+20979	kUnihanCore2020	H
 U+20983	kCihaiT	216.204
 U+20991	kCihaiT	216.207
 U+20992	kCihaiT	216.206
 U+209AC	kCihaiT	222.401
+U+209B1	kStrange	I
 U+209DE	kCihaiT	224.602
 U+209E6	kPhonetic	132 1170A
 U+209E7	kCangjie	YWNI
@@ -105524,6 +105670,7 @@ U+20A1E	kPhonetic	463
 U+20A44	kCihaiT	37.204
 U+20A50	kCangjie	MSV
 U+20A50	kUnihanCore2020	H
+U+20A64	kStrange	I:U+539F
 U+20A6F	kUnihanCore2020	H
 U+20A75	kPhonetic	802
 U+20A7A	kCihaiT	231.101
@@ -105531,6 +105678,8 @@ U+20A7A	kFenn	497P
 U+20A7A	kPhonetic	787
 U+20A8A	kUnihanCore2020	H
 U+20A99	kPhonetic	1553
+U+20AB1	kStrange	I:U+20ABE
+U+20AB3	kStrange	C
 U+20AB4	kCangjie	MDDO
 U+20AB4	kUnihanCore2020	H
 U+20AC2	kCangjie	MYPT
@@ -105538,10 +105687,14 @@ U+20AC2	kUnihanCore2020	H
 U+20ACD	kCangjie	MBCC
 U+20ACD	kUnihanCore2020	H
 U+20AD3	kCihaiT	232.101
+U+20AD3	kStrange	B:U+310A
 U+20AE4	kPhonetic	854
+U+20AEC	kStrange	U
 U+20AED	kPhonetic	23
+U+20B0A	kStrange	I
 U+20B0D	kCangjie	IENAU
 U+20B0D	kUnihanCore2020	H
+U+20B11	kStrange	U
 U+20B1B	kCihaiT	233.601
 U+20B1B	kFenn	536P
 U+20B1B	kPhonetic	930
@@ -105553,10 +105706,13 @@ U+20B22	kCihaiT	235.603
 U+20B22	kPhonetic	1519
 U+20B24	kPhonetic	1560
 U+20B2A	kCihaiT	235.605
+U+20B35	kStrange	I:U+25E29
 U+20B36	kFenn	675P
 U+20B36	kPhonetic	60
+U+20B6B	kStrange	I
 U+20B8F	kCangjie	YUE
 U+20B8F	kUnihanCore2020	H
+U+20B97	kStrange	U
 U+20B9A	kCihaiT	240.101
 U+20B9F	kCihaiT	244.601
 U+20B9F	kUnihanCore2020	HJ
@@ -105612,6 +105768,7 @@ U+20C43	kUnihanCore2020	H
 U+20C53	kCangjie	RNMU
 U+20C53	kCheungBauer	030/06;RNMU;[ng]ai1
 U+20C53	kUnihanCore2020	H
+U+20C60	kStrange	U
 U+20C65	kCangjie	RJT
 U+20C65	kCheungBauer	030/05;RJT;fik1,we5
 U+20C65	kUnihanCore2020	H
@@ -105671,6 +105828,7 @@ U+20D32	kCangjie	REA
 U+20D32	kCihaiT	281.102
 U+20D32	kUnihanCore2020	H
 U+20D33	kCheungBauer	030/08;;[ng]aau1,[ng]aau3
+U+20D3F	kStrange	U
 U+20D46	kCangjie	RQAM
 U+20D46	kCheungBauer	030/08;RQAM;daam3
 U+20D46	kUnihanCore2020	H
@@ -105812,6 +105970,7 @@ U+20ED7	kUnihanCore2020	H
 U+20ED8	kCangjie	RFOG
 U+20ED8	kCheungBauer	030/11;RFOG;zoet6
 U+20ED8	kUnihanCore2020	H
+U+20EDA	kStrange	I:U+66AE
 U+20EDC	kCihaiT	290.107
 U+20EDD	kCangjie	RRRH
 U+20EDD	kUnihanCore2020	H
@@ -105833,6 +105992,7 @@ U+20F1D	kUnihanCore2020	H
 U+20F1E	kCihaiT	290.204
 U+20F26	kCangjie	RAWE
 U+20F26	kUnihanCore2020	H
+U+20F28	kStrange	I
 U+20F2D	kCangjie	ROUM
 U+20F2D	kCheungBauer	030/11;ROUM;but1
 U+20F2D	kUnihanCore2020	H
@@ -105999,6 +106159,8 @@ U+21148	kUnihanCore2020	H
 U+2114F	kCangjie	RIFT
 U+2114F	kCheungBauer	030/17;RIFT;lai2
 U+2114F	kUnihanCore2020	H
+U+21155	kStrange	F
+U+2115B	kStrange	I
 U+21166	kPhonetic	588
 U+21180	kCangjie	RJJJ
 U+21180	kCheungBauer	030/21;RJJJ;gwang2
@@ -106006,16 +106168,23 @@ U+21180	kUnihanCore2020	H
 U+21187	kCangjie	RCTE
 U+21187	kCheungBauer	030/22;RCTE;wok1
 U+21187	kUnihanCore2020	H
+U+211A2	kStrange	C
+U+211A5	kStrange	K:U+30C8
 U+211D9	kCangjie	WHND
 U+211D9	kCheungBauer	031/06;WHND;doe4
 U+211D9	kUnihanCore2020	H
+U+21236	kStrange	U
+U+21239	kStrange	U
 U+2123C	kCangjie	HG
 U+2123C	kCihaiT	312.202
 U+2123C	kUnihanCore2020	H
 U+21244	kPhonetic	1130
+U+21245	kStrange	I:U+5409
+U+21246	kStrange	I:U+5409
 U+2124F	kCangjie	GSU
 U+2124F	kPhonetic	1548
 U+2124F	kUnihanCore2020	H
+U+21261	kStrange	O
 U+2127C	kCangjie	HTG
 U+2127C	kUnihanCore2020	H
 U+21284	kCihaiT	318.302
@@ -106060,6 +106229,7 @@ U+213C5	kCangjie	ILG
 U+213C5	kUnihanCore2020	H
 U+213C6	kCangjie	GTOL
 U+213C6	kUnihanCore2020	H
+U+213CE	kStrange	I
 U+213ED	kCangjie	GHAD
 U+213ED	kUnihanCore2020	H
 U+213FE	kCangjie	GJKR
@@ -106072,6 +106242,7 @@ U+21424	kCangjie	GQHF
 U+21424	kUnihanCore2020	H
 U+21428	kCihaiT	330.607
 U+21428	kPhonetic	1603
+U+21428	kStrange	I:U+58C4
 U+2143F	kCangjie	GYGJ
 U+2143F	kUnihanCore2020	H
 U+21452	kCangjie	GMJK
@@ -106091,9 +106262,13 @@ U+214E8	kCangjie	GGGOG
 U+214E8	kUnihanCore2020	H
 U+214FD	kCangjie	GTHF
 U+214FD	kUnihanCore2020	H
+U+214FF	kStrange	U
 U+2150F	kCihaiT	333.102
+U+2151C	kStrange	I:U+58F0
+U+21547	kStrange	U
 U+21552	kCihaiT	334.603
 U+21555	kCihaiT	334.606
+U+21556	kStrange	I:U+5906
 U+21562	kCihaiT	335.105
 U+21570	kPhonetic	320
 U+21577	kCangjie	NWBUE
@@ -106119,9 +106294,12 @@ U+21661	kCangjie	TFK
 U+21661	kUnihanCore2020	H
 U+21681	kCheungBauer	037/11;;bai6
 U+21681	kPhonetic	1013
+U+21685	kStrange	U
+U+2168C	kStrange	U
 U+21692	kCangjie	KOGX
 U+21692	kUnihanCore2020	H
 U+216A6	kCheungBauer	038/01;;hai1
+U+216A6	kStrange	U
 U+216B8	kCangjie	VHI
 U+216B8	kUnihanCore2020	H
 U+216BA	kCangjie	VKNI
@@ -106144,6 +106322,7 @@ U+216E7	kCangjie	VOHH
 U+216E7	kUnihanCore2020	H
 U+216E8	kCangjie	VYMY
 U+216E8	kUnihanCore2020	H
+U+216F7	kStrange	I:U+2A971
 U+216FA	kCangjie	NHV
 U+216FA	kUnihanCore2020	H
 U+216FB	kCangjie	VINE
@@ -106279,6 +106458,7 @@ U+21884	kUnihanCore2020	H
 U+21885	kCangjie	VMBI
 U+21885	kUnihanCore2020	H
 U+21898	kCihaiT	392.105
+U+2189B	kStrange	U
 U+2189E	kCangjie	VBUV
 U+2189E	kUnihanCore2020	H
 U+2189F	kCangjie	VDDO
@@ -106336,6 +106516,7 @@ U+21948	kCihaiT	399.301
 U+21949	kPhonetic	958
 U+21958	kCangjie	WYND
 U+21958	kUnihanCore2020	H
+U+21966	kStrange	U
 U+2196A	kCangjie	NDYMR
 U+2196A	kUnihanCore2020	H
 U+2197C	kCangjie	NDNBC
@@ -106347,11 +106528,18 @@ U+21983	kCangjie	FFBND
 U+21983	kUnihanCore2020	H
 U+21988	kCangjie	OINDO
 U+21988	kUnihanCore2020	H
+U+2198F	kStrange	U
 U+21996	kCangjie	NDTLB
 U+21996	kUnihanCore2020	H
+U+219AA	kStrange	U
+U+219AD	kStrange	I
 U+219B5	kCihaiT	404.601
+U+219B7	kStrange	U
+U+219B9	kStrange	C
 U+219CC	kPhonetic	587
+U+219D1	kStrange	C
 U+219D8	kCihaiT	416.401
+U+219D8	kStrange	I:U+5BB6
 U+219DB	kCangjie	JODI
 U+219DB	kUnihanCore2020	H
 U+219EF	kCihaiT	418.502
@@ -106374,16 +106562,25 @@ U+21A63	kUnihanCore2020	H
 U+21A67	kCihaiT	426.601
 U+21A7B	kCihaiT	429.602
 U+21AB8	kCihaiT	430.502
+U+21ADF	kStrange	U
+U+21AE9	kStrange	U
+U+21AF3	kStrange	U
+U+21AFC	kStrange	U
+U+21AFE	kStrange	U
+U+21B1E	kStrange	U
 U+21B36	kPhonetic	62
 U+21B3E	kCihaiT	714.409
 U+21B44	kCangjie	GUDI
 U+21B44	kUnihanCore2020	H
 U+21B57	kCihaiT	443.401
+U+21B6F	kStrange	U
 U+21B74	kCihaiT	444.401
 U+21B74	kPhonetic	740
 U+21B7D	kPhonetic	740
 U+21B82	kCihaiT	444.501
 U+21B82	kPhonetic	740
+U+21B90	kStrange	U
+U+21B9F	kStrange	U
 U+21BA6	kFenn	820E
 U+21BA6	kPhonetic	231*
 U+21BC1	kCangjie	KN
@@ -106392,6 +106589,7 @@ U+21BC2	kCangjie	CHN
 U+21BC2	kPhonetic	1455
 U+21BC2	kUnihanCore2020	H
 U+21BCE	kPhonetic	923
+U+21C23	kStrange	B:U+3115 I:U+5C38
 U+21C2A	kCangjie	SR
 U+21C2A	kCheungBauer	044/03;SR;duk1
 U+21C2A	kUnihanCore2020	H
@@ -106408,6 +106606,7 @@ U+21CAC	kCangjie	SYYU
 U+21CAC	kCheungBauer	044/10;SYYU;gwat6
 U+21CAC	kUnihanCore2020	H
 U+21CD0	kCihaiT	451.201
+U+21CFF	kStrange	A
 U+21D0E	kCihaiT	452.202
 U+21D0E	kPhonetic	213
 U+21D3E	kCihaiT	455.103
@@ -106468,16 +106667,23 @@ U+21FD5	kCihaiT	462.104
 U+21FE7	kCihaiT	462.301
 U+21FE7	kPhonetic	124
 U+21FE8	kCihaiT	462.106
+U+21FE8	kStrange	B:U+3111 I:U+5DDB
 U+21FE8	kUnihanCore2020	H
 U+21FEA	kCihaiT	462.502
 U+21FEA	kPhonetic	27 170 273 815
 U+21FFA	kFenn	428P
 U+21FFA	kPhonetic	985
+U+22013	kStrange	C
 U+22016	kPhonetic	623
+U+22016	kStrange	K:U+30B9
+U+2201A	kStrange	U
+U+22044	kStrange	M
 U+22045	kCangjie	RUHJJ
 U+22045	kUnihanCore2020	H
 U+22049	kCangjie	SUTC
 U+22049	kUnihanCore2020	H
+U+22053	kStrange	I:U+5E03
+U+22064	kStrange	I
 U+22065	kCihaiT	473.603
 U+2207E	kCangjie	LBSHR
 U+2207E	kUnihanCore2020	H
@@ -106490,6 +106696,7 @@ U+220C7	kCheungBauer	050/07;LBWG;lei5
 U+220C7	kPhonetic	789
 U+220C7	kUnihanCore2020	H
 U+220F3	kCihaiT	478.406
+U+220FB	kStrange	I
 U+220FC	kCangjie	LBAHU
 U+220FC	kUnihanCore2020	H
 U+22110	kCihaiT	478.503
@@ -106508,13 +106715,18 @@ U+2217A	kCangjie	LAITB
 U+2217A	kUnihanCore2020	H
 U+22189	kCihaiT	480.401
 U+2218D	kCihaiT	484.403
+U+2218D	kStrange	I:U+91CD
+U+22191	kStrange	U
 U+2219E	kFenn	501K
 U+221A1	kCangjie	BUOQ
 U+221A1	kCheungBauer	039/11;BUOQ;nin1
 U+221A1	kUnihanCore2020	H
 U+221AF	kCihaiT	485.401
+U+221AF	kStrange	I:U+7CF8
 U+221B2	kCihaiT	485.501
+U+221B4	kStrange	R:U+221B3
 U+221B6	kCihaiT	485.502
+U+221BD	kStrange	I:U+7D17
 U+221C1	kPhonetic	1170
 U+221C1	kUnihanCore2020	H
 U+221C2	kPhonetic	706
@@ -106522,6 +106734,9 @@ U+221C3	kCangjie	VIF
 U+221C3	kUnihanCore2020	H
 U+221C7	kCihaiT	486.201
 U+221C7	kPhonetic	706
+U+221CA	kStrange	I:U+7DA4
+U+221CB	kStrange	I:U+42F5
+U+221D6	kStrange	F
 U+22208	kCangjie	IOMR
 U+22208	kCheungBauer	053/06;IOMR;nap1
 U+22208	kCihaiT	488.103
@@ -106533,26 +106748,39 @@ U+222C1	kCihaiT	492.405
 U+2231C	kPhonetic	1345
 U+22321	kCangjie	NKBCR
 U+22321	kUnihanCore2020	H
+U+22324	kStrange	I:U+5EFA
 U+22325	kCangjie	NKRHG
 U+22325	kUnihanCore2020	H
+U+22330	kStrange	U
+U+2233D	kStrange	U
+U+22374	kStrange	F
 U+2237F	kCihaiT	499.302
 U+2237F	kPhonetic	121
 U+22398	kCihaiT	499.501
+U+2239E	kStrange	I:U+5F18
+U+223B1	kStrange	I:U+223A8
+U+223BA	kStrange	I:U+223DB
 U+223BD	kCangjie	NNHE
 U+223BD	kUnihanCore2020	H
+U+223C0	kStrange	I
 U+223D0	kCangjie	NLBI
 U+223D0	kUnihanCore2020	H
 U+223D7	kCangjie	MJN
 U+223D7	kUnihanCore2020	H
+U+223DD	kStrange	U
 U+223EE	kCihaiT	505.202
 U+223F3	kFenn	35K
 U+223F3	kPhonetic	1055*
 U+223FA	kCangjie	NMBN
 U+223FA	kUnihanCore2020	H
+U+223FD	kStrange	F
+U+22434	kStrange	U
+U+2244D	kStrange	U
 U+22465	kCangjie	VBWD
 U+22465	kUnihanCore2020	H
 U+22471	kCangjie	VMFHK
 U+22471	kUnihanCore2020	H
+U+2247D	kStrange	U
 U+2248B	kCangjie	IEHHH
 U+2248B	kUnihanCore2020	H
 U+22491	kCangjie	OJHHH
@@ -106560,6 +106788,8 @@ U+22491	kUnihanCore2020	H
 U+224B0	kCangjie	KBIHM
 U+224B0	kCihaiT	509.301
 U+224B0	kUnihanCore2020	H
+U+224B4	kStrange	I
+U+224B9	kStrange	U
 U+224BC	kUnihanCore2020	H
 U+224C1	kUnihanCore2020	H
 U+224C9	kUnihanCore2020	H
@@ -106579,6 +106809,7 @@ U+22554	kUnihanCore2020	H
 U+2258A	kCihaiT	520.401
 U+2258D	kCangjie	HONFN
 U+2258D	kUnihanCore2020	H
+U+225A9	kStrange	I:U+5FC3
 U+225AF	kCangjie	PHN
 U+225AF	kUnihanCore2020	H
 U+225BE	kCangjie	PHN
@@ -106587,6 +106818,7 @@ U+225CA	kCihaiT	525.302
 U+225D0	kPhonetic	1477
 U+225D7	kCihaiT	525.406
 U+22605	kCheungBauer	110/04;;maau4
+U+22606	kStrange	I:U+6052
 U+2260D	kCihaiT	527.603
 U+2261B	kCangjie	PHMY
 U+2261B	kUnihanCore2020	H
@@ -106594,6 +106826,7 @@ U+2261C	kCangjie	PSMR
 U+2261C	kUnihanCore2020	H
 U+2262B	kCangjie	MMP
 U+2262B	kUnihanCore2020	H
+U+22634	kStrange	I:U+393B
 U+22638	kFenn	540I
 U+22638	kPhonetic	659*
 U+22645	kCihaiT	531.304
@@ -106601,11 +106834,13 @@ U+22668	kCangjie	PKLD
 U+22668	kUnihanCore2020	H
 U+2267A	kCangjie	PGP
 U+2267A	kUnihanCore2020	H
+U+2267B	kStrange	I
 U+22696	kCangjie	CHP
 U+22696	kCheungBauer	061/07;CHP;ti4
 U+22696	kUnihanCore2020	H
 U+22698	kCangjie	PYMR
 U+22698	kUnihanCore2020	H
+U+226C0	kStrange	I:U+60B6
 U+226C1	kCihaiT	536.114
 U+226C3	kCihaiT	536.105
 U+226C5	kCihaiT	536.201
@@ -106633,6 +106868,7 @@ U+22738	kFenn	117I
 U+22775	kCangjie	NOP
 U+22775	kCheungBauer	183/04;NOP;fit1
 U+22775	kUnihanCore2020	H
+U+22779	kStrange	I:U+22796
 U+22781	kCangjie	PHNI
 U+22781	kUnihanCore2020	H
 U+22796	kUnihanCore2020	H
@@ -106654,8 +106890,10 @@ U+2285F	kCangjie	DDP
 U+2285F	kUnihanCore2020	H
 U+22860	kCangjie	PYIA
 U+22860	kUnihanCore2020	H
+U+22868	kStrange	I
 U+22871	kCangjie	GEP
 U+22871	kUnihanCore2020	H
+U+22877	kStrange	I
 U+228AD	kCangjie	MNP
 U+228AD	kUnihanCore2020	H
 U+228BA	kPhonetic	934
@@ -106664,6 +106902,7 @@ U+228C1	kUnihanCore2020	H
 U+228D7	kCihaiT	547.409
 U+228F7	kCangjie	PSMG
 U+228F7	kUnihanCore2020	H
+U+22911	kStrange	U
 U+22926	kCangjie	PTYG
 U+22926	kUnihanCore2020	H
 U+22927	kCihaiT	548.105
@@ -106673,6 +106912,8 @@ U+22939	kUnihanCore2020	H
 U+2294F	kCangjie	PFFR
 U+2294F	kUnihanCore2020	H
 U+22958	kPhonetic	720
+U+2295B	kStrange	U
+U+2295C	kStrange	U
 U+2295E	kCihaiT	550.101
 U+2295E	kPhonetic	331
 U+22960	kCihaiT	549.603
@@ -106680,19 +106921,30 @@ U+22967	kCangjie	MCP
 U+22967	kUnihanCore2020	H
 U+2296B	kCangjie	YCP
 U+2296B	kUnihanCore2020	H
+U+22973	kStrange	U
 U+22980	kCangjie	MCP
 U+22980	kUnihanCore2020	H
 U+22982	kCheungBauer	061/21;;laan2
 U+2298F	kFenn	334P
 U+2298F	kPhonetic	239 247
+U+2298F	kStrange	I:U+363D:U+39B2:U+39B3:U+4CD2:U+4D67:U+54C9:U+622A:U+6234:U+683D:U+70D6:U+80FE:U+81F7:U+86D3:U+88C1:U+8F09:U+8F7D:U+9168:U+97EF:U+FA8C:U+22387:U+2299B:U+229B7:U+229BC:U+229C7:U+229D1:U+229DC:U+229E8:U+229ED:U+22A06:U+22A0E:U+22A23:U+24C71:U+25164:U+25170:U+26002:U+277ED:U+279DF:U+279EC:U+27BE5:U+286B5:U+2AB4B:U+2AB52:U+2BEED:U+2CC2B:U+2CC8F:U+2E682:U+2E9C7:U+30666:U+309F8:U+31267
 U+22993	kCangjie	IHSH
 U+22993	kUnihanCore2020	H
+U+22994	kStrange	I
+U+22998	kStrange	I:U+6216
 U+2299F	kCihaiT	552.401
 U+229DC	kPhonetic	1348
+U+229DF	kStrange	U
 U+229F5	kCihaiT	553.505
+U+22A0B	kStrange	R:U+304B2
+U+22A55	kStrange	U
 U+22A66	kCangjie	NQ
 U+22A66	kCheungBauer	064/02;NQ;zit1
 U+22A66	kUnihanCore2020	H
+U+22A6F	kStrange	I:U+21945
+U+22AA2	kStrange	I:U+6311
+U+22AC2	kStrange	I
+U+22ACE	kStrange	I:U+22B18
 U+22ACF	kCangjie	QBU
 U+22ACF	kCheungBauer	064/05;QBU;kam2
 U+22ACF	kUnihanCore2020	H
@@ -106720,9 +106972,11 @@ U+22B3F	kUnihanCore2020	H
 U+22B43	kCangjie	QMRT
 U+22B43	kCheungBauer	064/07;QMRT;dau3,dau6
 U+22B43	kUnihanCore2020	HM
+U+22B61	kStrange	I:U+633F
 U+22B6A	kCangjie	QJRU
 U+22B6A	kUnihanCore2020	H
 U+22B91	kCheungBauer	064/08;;luk1
+U+22BBD	kStrange	I
 U+22BCA	kCangjie	QHAI
 U+22BCA	kCheungBauer	064/08;QHAI;dik1
 U+22BCA	kUnihanCore2020	H
@@ -106850,12 +107104,14 @@ U+22E8B	kCangjie	TGQ
 U+22E8B	kCheungBauer	064/19;TGQ;naan3
 U+22E8B	kUnihanCore2020	H
 U+22E9E	kPhonetic	997
+U+22EA6	kStrange	U
 U+22EB3	kCangjie	QVFI
 U+22EB3	kCheungBauer	064/25;QVFI;maan1
 U+22EB3	kUnihanCore2020	H
 U+22EEF	kCangjie	OKND
 U+22EEF	kUnihanCore2020	H
 U+22EF0	kCihaiT	600.301
+U+22F0B	kStrange	I:U+6547
 U+22F12	kCihaiT	602.302
 U+22F38	kCihaiT	611.503
 U+22F38	kPhonetic	888
@@ -106870,6 +107126,7 @@ U+22FCC	kUnihanCore2020	H
 U+22FE3	kCangjie	GUYE
 U+22FE3	kUnihanCore2020	H
 U+23012	kFenn	627I
+U+23028	kStrange	R
 U+23033	kCangjie	SJOK
 U+23033	kUnihanCore2020	H
 U+23044	kCangjie	YKHQ
@@ -106896,6 +107153,9 @@ U+23103	kCangjie	YSTMC
 U+23103	kUnihanCore2020	H
 U+2313D	kCangjie	NA
 U+2313D	kUnihanCore2020	H
+U+2314A	kStrange	I:U+660C
+U+23150	kStrange	I:U+65FB
+U+23169	kStrange	I:U+7709
 U+2317D	kCangjie	AUU
 U+2317D	kUnihanCore2020	H
 U+23182	kCangjie	AYVI
@@ -106906,10 +107166,12 @@ U+231A5	kCangjie	FUA
 U+231A5	kUnihanCore2020	H
 U+231B3	kCangjie	AMLK
 U+231B3	kUnihanCore2020	H
+U+231B9	kStrange	I:U+7573
 U+231C8	kCangjie	AIMU
 U+231C8	kUnihanCore2020	H
 U+231C9	kCangjie	ASKR
 U+231C9	kUnihanCore2020	H
+U+231D3	kStrange	I:U+9F0E
 U+231E8	kPhonetic	1372
 U+231EA	kUnihanCore2020	H
 U+231F0	kCihaiT	645.201
@@ -106945,11 +107207,14 @@ U+23289	kUnihanCore2020	H
 U+2328A	kCangjie	AHUM
 U+2328A	kUnihanCore2020	H
 U+232AB	kCangjie	AAAA
+U+232AB	kStrange	U
 U+232AB	kUnihanCore2020	H
 U+232AC	kCangjie	ABBQ
 U+232AC	kUnihanCore2020	H
 U+232AD	kCangjie	AAAA
+U+232AD	kStrange	U
 U+232AD	kUnihanCore2020	H
+U+232B3	kStrange	I:U+66DB
 U+232D2	kCangjie	ATNK
 U+232D2	kUnihanCore2020	H
 U+232E0	kCangjie	AYX
@@ -106962,6 +107227,8 @@ U+2330A	kCangjie	AMBE
 U+2330A	kUnihanCore2020	H
 U+2331F	kCangjie	AMBM
 U+2331F	kUnihanCore2020	H
+U+23320	kStrange	U
+U+23332	kStrange	I
 U+2339C	kCihaiT	1105.207
 U+233B3	kCihaiT	665.301
 U+233B4	kCangjie	MF
@@ -106969,7 +107236,9 @@ U+233B4	kCheungBauer	001/03;MF;dan2
 U+233B4	kCihaiT	665.302
 U+233B4	kFenn	120K
 U+233B4	kUnihanCore2020	H
+U+233C1	kStrange	I:U+6772
 U+233C2	kPhonetic	46
+U+233CA	kStrange	I:U+6782
 U+233CB	kPhonetic	1590
 U+233CC	kCangjie	DRU
 U+233CC	kCihaiT	674.601
@@ -106994,6 +107263,7 @@ U+233FE	kCheungBauer	075/04;DI;dak6/2
 U+233FE	kUnihanCore2020	H
 U+23400	kCangjie	DYK
 U+23400	kUnihanCore2020	H
+U+23408	kStrange	I:U+681C
 U+2343F	kCangjie	DYHV
 U+2343F	kUnihanCore2020	H
 U+23450	kCangjie	DRLB
@@ -107002,6 +107272,7 @@ U+2346F	kCangjie	DLMO
 U+2346F	kUnihanCore2020	H
 U+23472	kCangjie	DHNB
 U+23472	kUnihanCore2020	H
+U+2347D	kStrange	I:U+68B5
 U+234C1	kPhonetic	1337
 U+234E5	kCangjie	EHD
 U+234E5	kUnihanCore2020	H
@@ -107050,6 +107321,7 @@ U+2363C	kCangjie	IKD
 U+2363C	kUnihanCore2020	H
 U+23640	kCangjie	DGJI
 U+23640	kUnihanCore2020	H
+U+23652	kStrange	I:U+2A507
 U+23659	kCangjie	DDLK
 U+23659	kUnihanCore2020	H
 U+2365F	kCangjie	DFBB
@@ -107069,6 +107341,7 @@ U+236AD	kUnihanCore2020	H
 U+236BA	kCangjie	JDISY
 U+236BA	kCheungBauer	075/12;JDISY;hong6/2
 U+236BA	kUnihanCore2020	H
+U+236D0	kStrange	I
 U+236DF	kCangjie	DFBQ
 U+236DF	kUnihanCore2020	H
 U+236EE	kCangjie	DIST
@@ -107091,6 +107364,7 @@ U+23766	kCangjie	DSMJ
 U+23766	kUnihanCore2020	H
 U+23781	kCangjie	DFFD
 U+23781	kUnihanCore2020	H
+U+23786	kStrange	U
 U+23790	kCihaiT	726.402
 U+237A2	kCangjie	DTIF
 U+237A2	kUnihanCore2020	H
@@ -107110,9 +107384,18 @@ U+23838	kCihaiT	728.401
 U+2383A	kCangjie	DHOO
 U+2383A	kUnihanCore2020	H
 U+2384C	kCihaiT	728.403
+U+2384D	kStrange	U
+U+23855	kStrange	U
+U+2387A	kStrange	U
+U+2387D	kStrange	U
+U+2387E	kStrange	U
 U+238BE	kPhonetic	396
 U+238F7	kCihaiT	731.204
 U+23942	kCihaiT	732.501
+U+23944	kStrange	M:U+6B63
+U+23952	kStrange	R:U+23955
+U+23957	kStrange	M:U+23955
+U+23960	kStrange	F:U+23956
 U+239B5	kCihaiT	740.603
 U+239B5	kPhonetic	1285
 U+239B6	kCihaiT	740.602
@@ -107125,6 +107408,7 @@ U+239C2	kUnihanCore2020	H
 U+239C4	kPhonetic	27 273 815
 U+239D1	kCihaiT	741.306
 U+239DF	kPhonetic	878
+U+239E8	kStrange	I:U+23A01
 U+23A19	kCihaiT	741.605
 U+23A1B	kCihaiT	742.202
 U+23A2F	kPhonetic	351
@@ -107150,6 +107434,7 @@ U+23AEE	kCangjie	NDWYI
 U+23AEE	kUnihanCore2020	H
 U+23AFA	kCangjie	OYYIB
 U+23AFA	kUnihanCore2020	H
+U+23B05	kStrange	U
 U+23B09	kPhonetic	1030 1037
 U+23B0B	kPhonetic	1030 1037
 U+23B1A	kUnihanCore2020	H
@@ -107157,9 +107442,12 @@ U+23B5A	kCangjie	HUPRU
 U+23B5A	kUnihanCore2020	H
 U+23BAC	kCihaiT	749.501
 U+23C07	kPhonetic	1450
+U+23C16	kStrange	I:U+23C1A
 U+23C59	kCihaiT	751.501
 U+23C63	kCangjie	ONWD
 U+23C63	kUnihanCore2020	H
+U+23C71	kStrange	I:U+6C34
+U+23C96	kStrange	I:U+6CD2
 U+23C97	kUnihanCore2020	G
 U+23C98	kUnihanCore2020	G
 U+23C99	kCangjie	EE
@@ -107168,6 +107456,7 @@ U+23C9A	kCangjie	EOMM
 U+23C9A	kUnihanCore2020	H
 U+23C9B	kCangjie	HTE
 U+23C9B	kUnihanCore2020	H
+U+23C9C	kStrange	U
 U+23CB5	kCangjie	ERC
 U+23CB5	kUnihanCore2020	H
 U+23CB7	kCangjie	EWE
@@ -107189,10 +107478,13 @@ U+23CFE	kUnihanCore2020	H
 U+23CFF	kCangjie	EJMD
 U+23CFF	kUnihanCore2020	H
 U+23D11	kCihaiT	792.501
+U+23D11	kStrange	I:U+6D41
 U+23D1E	kCihaiT	801.601
+U+23D2B	kStrange	I:U+6E8A
 U+23D40	kCangjie	EAM
 U+23D40	kCihaiT	802.101
 U+23D40	kUnihanCore2020	H
+U+23D49	kStrange	I:U+6E59
 U+23D5B	kCangjie	EHDS
 U+23D5B	kUnihanCore2020	H
 U+23D66	kCihaiT	801.609
@@ -107221,6 +107513,7 @@ U+23DBC	kCangjie	ETCH
 U+23DBC	kUnihanCore2020	H
 U+23DBD	kCangjie	ETMI
 U+23DBD	kUnihanCore2020	H
+U+23DD2	kStrange	I
 U+23DE3	kCangjie	EBTU
 U+23DE3	kUnihanCore2020	H
 U+23DF8	kCangjie	ETIO
@@ -107328,6 +107621,7 @@ U+2403C	kCangjie	EVFE
 U+2403C	kUnihanCore2020	H
 U+2403D	kCangjie	EVFR
 U+2403D	kUnihanCore2020	H
+U+2404E	kStrange	I
 U+24057	kCangjie	EVFB
 U+24057	kUnihanCore2020	H
 U+2406F	kCihaiT	838.204
@@ -107345,6 +107639,7 @@ U+24091	kUnihanCore2020	H
 U+240B9	kCihaiT	839.205
 U+240C9	kCangjie	EMDP
 U+240C9	kUnihanCore2020	H
+U+240CA	kStrange	U
 U+240E1	kCangjie	EPDC
 U+240E1	kUnihanCore2020	H
 U+240EC	kUnihanCore2020	H
@@ -107356,6 +107651,7 @@ U+2410F	kCangjie	ENFF
 U+2410F	kUnihanCore2020	H
 U+24119	kCangjie	EHLX
 U+24119	kUnihanCore2020	H
+U+24121	kStrange	I
 U+24136	kCihaiT	840.404
 U+2413F	kCangjie	EDVD
 U+2413F	kUnihanCore2020	H
@@ -107376,10 +107672,12 @@ U+2415C	kUnihanCore2020	H
 U+2415F	kCangjie	EMBR
 U+2415F	kUnihanCore2020	H
 U+24161	kUnihanCore2020	H
+U+24173	kStrange	R
 U+24177	kCangjie	EMBM
 U+24177	kUnihanCore2020	H
 U+2417A	kCangjie	ECCC
 U+2417A	kUnihanCore2020	H
+U+24181	kStrange	U
 U+241A3	kCangjie	FNHE
 U+241A3	kCheungBauer	086/04;FNHE;saap6
 U+241A3	kUnihanCore2020	H
@@ -107393,6 +107691,7 @@ U+241B5	kCangjie	FAU
 U+241B5	kUnihanCore2020	H
 U+241CD	kCangjie	IDF
 U+241CD	kUnihanCore2020	H
+U+241D7	kStrange	I:U+24216
 U+241E2	kCangjie	FHA
 U+241E2	kUnihanCore2020	H
 U+241FC	kCangjie	FJV
@@ -107426,6 +107725,7 @@ U+242A5	kUnihanCore2020	H
 U+242BF	kUnihanCore2020	H
 U+242C1	kCangjie	AHF
 U+242C1	kUnihanCore2020	H
+U+242C5	kStrange	O
 U+242C7	kCihaiT	855.108
 U+242C9	kCangjie	FAYI
 U+242C9	kUnihanCore2020	H
@@ -107444,6 +107744,7 @@ U+24334	kCangjie	FNQD
 U+24334	kUnihanCore2020	H
 U+24348	kCangjie	FUMT
 U+24348	kUnihanCore2020	H
+U+2435E	kStrange	I:U+71C1
 U+24360	kCihaiT	857.504
 U+24360	kPhonetic	962
 U+24362	kCangjie	FFFG
@@ -107456,6 +107757,7 @@ U+24364	kPhonetic	110*
 U+24364	kUnihanCore2020	H
 U+24365	kCangjie	SRF
 U+24365	kUnihanCore2020	H
+U+2437B	kStrange	I
 U+2438C	kCangjie	FFBG
 U+2438C	kUnihanCore2020	H
 U+24396	kCangjie	FILE
@@ -107468,6 +107770,7 @@ U+243BD	kCangjie	FWJC
 U+243BD	kUnihanCore2020	H
 U+243C1	kCangjie	ESUF
 U+243C1	kUnihanCore2020	H
+U+243CE	kStrange	U
 U+243E9	kCangjie	RSF
 U+243E9	kUnihanCore2020	H
 U+243EA	kCangjie	FFFS
@@ -107491,11 +107794,14 @@ U+2445B	kUnihanCore2020	H
 U+24473	kCangjie	FTLX
 U+24473	kUnihanCore2020	H
 U+2447A	kCihaiT	862.105
+U+2447B	kStrange	I:U+7217
 U+2447E	kCihaiT	862.203
 U+24487	kCangjie	FFFD
 U+24487	kUnihanCore2020	H
 U+24488	kCangjie	FTLF
 U+24488	kUnihanCore2020	H
+U+24489	kStrange	R:U+2449C
+U+24493	kStrange	R
 U+244B9	kCangjie	FWTJ
 U+244B9	kUnihanCore2020	H
 U+244BC	kCangjie	ICFF
@@ -107508,6 +107814,8 @@ U+244D3	kCheungBauer	086/19;FWLG;lo3
 U+244D3	kUnihanCore2020	H
 U+244D6	kCangjie	VFF
 U+244D6	kUnihanCore2020	H
+U+244EB	kStrange	F
+U+244F0	kStrange	I:U+74DC
 U+24505	kCangjie	HOHQO
 U+24505	kUnihanCore2020	H
 U+24514	kCihaiT	863.601
@@ -107515,10 +107823,18 @@ U+24514	kFenn	535P
 U+24514	kPhonetic	834*
 U+24521	kCangjie	BIKF
 U+24521	kUnihanCore2020	H
+U+2452A	kStrange	U
+U+2452D	kStrange	U
+U+2453C	kStrange	U
+U+24540	kStrange	U
+U+24548	kStrange	O
 U+2455F	kCihaiT	864.501
 U+24560	kCihaiT	864.502
+U+2456A	kStrange	M:U+382F
+U+24570	kStrange	F:U+3E1E
 U+24578	kCangjie	VMIG
 U+24578	kUnihanCore2020	H
+U+2459A	kStrange	U
 U+245C8	kCangjie	LLYTV
 U+245C8	kCheungBauer	091/08;LLYTV;sip3
 U+245C8	kUnihanCore2020	H
@@ -107530,6 +107846,7 @@ U+24618	kUnihanCore2020	H
 U+2462A	kCangjie	HQBY
 U+2462A	kUnihanCore2020	H
 U+2463D	kCihaiT	870.403
+U+24642	kStrange	I
 U+24656	kCihaiT	871.301
 U+24661	kCihaiT	871.503
 U+24665	kCangjie	HQJRU
@@ -107543,6 +107860,7 @@ U+24697	kUnihanCore2020	H
 U+246D4	kCangjie	HQAWE
 U+246D4	kUnihanCore2020	H
 U+246DB	kCihaiT	872.309
+U+246ED	kStrange	U
 U+24706	kCangjie	HQYBP
 U+24706	kUnihanCore2020	H
 U+2470C	kCihaiT	873.102
@@ -107556,6 +107874,7 @@ U+2478F	kCangjie	KHMCW
 U+2478F	kUnihanCore2020	H
 U+24796	kPhonetic	829
 U+247B0	kCihaiT	876.602
+U+247B9	kStrange	U
 U+247CE	kCihaiT	877.504
 U+247E0	kCangjie	KHNOB
 U+247E0	kUnihanCore2020	H
@@ -107583,6 +107902,8 @@ U+248AA	kCihaiT	880.607
 U+248C3	kCihaiT	881.202
 U+248CE	kCihaiT	881.502
 U+248E5	kPhonetic	1623
+U+248E5	kStrange	I:U+7384
+U+248E6	kStrange	I
 U+248E9	kCangjie	MG
 U+248E9	kUnihanCore2020	H
 U+248F0	kCangjie	MGG
@@ -107661,8 +107982,10 @@ U+2498E	kCangjie	MGOMB
 U+2498E	kUnihanCore2020	H
 U+2498F	kCangjie	MGPHP
 U+2498F	kUnihanCore2020	H
+U+24993	kStrange	I:U+24A0E
 U+24994	kCangjie	MGFQU
 U+24994	kUnihanCore2020	H
+U+249A1	kStrange	F U
 U+249A4	kCangjie	MGHXU
 U+249A4	kUnihanCore2020	H
 U+249A7	kCangjie	MGTIO
@@ -107816,6 +108139,7 @@ U+24ACA	kCangjie	MBRRG
 U+24ACA	kUnihanCore2020	H
 U+24AD1	kCangjie	MGMBE
 U+24AD1	kUnihanCore2020	H
+U+24ADD	kStrange	I
 U+24ADF	kCangjie	MGMMP
 U+24ADF	kUnihanCore2020	H
 U+24AE2	kCangjie	MGMBR
@@ -107830,6 +108154,7 @@ U+24B80	kPhonetic	132
 U+24BAD	kFenn	386K
 U+24BF5	kCangjie	FFBHM
 U+24BF5	kUnihanCore2020	H
+U+24C03	kStrange	A
 U+24C07	kPhonetic	1034
 U+24C08	kCihaiT	909.203
 U+24C09	kCangjie	ROBQ
@@ -107849,8 +108174,18 @@ U+24CC9	kCangjie	WTLO
 U+24CC9	kUnihanCore2020	H
 U+24CD9	kCangjie	WTJU
 U+24CD9	kUnihanCore2020	H
+U+24CF3	kStrange	U
+U+24CF5	kStrange	U
+U+24CF9	kStrange	U
+U+24D04	kStrange	U
 U+24D06	kCangjie	WHGI
 U+24D06	kUnihanCore2020	H
+U+24D07	kStrange	U
+U+24D0A	kStrange	U
+U+24D0C	kStrange	U
+U+24D10	kStrange	U
+U+24D11	kStrange	U
+U+24D12	kStrange	U
 U+24D13	kCangjie	MYO
 U+24D13	kCihaiT	919.103
 U+24D13	kUnihanCore2020	H
@@ -107873,6 +108208,7 @@ U+24E05	kPhonetic	352
 U+24E3B	kCangjie	KVEQ
 U+24E3B	kCheungBauer	104/09;KVEQ;naa1
 U+24E3B	kUnihanCore2020	H
+U+24E48	kStrange	I
 U+24E50	kCangjie	KMNF
 U+24E50	kCheungBauer	104/10;KMNF;lit3
 U+24E50	kUnihanCore2020	H
@@ -107890,8 +108226,10 @@ U+24ED8	kPhonetic	1483
 U+24EF2	kCihaiT	924.303
 U+24F0E	kCangjie	KWGT
 U+24F0E	kUnihanCore2020	H
+U+24F3D	kStrange	I:U+7681:U+7690
 U+24F5C	kCangjie	HAJD
 U+24F5C	kUnihanCore2020	H
+U+24F6A	kStrange	I
 U+24F82	kCangjie	HAJNU
 U+24F82	kUnihanCore2020	H
 U+24F86	kCangjie	HAHXU
@@ -107909,6 +108247,7 @@ U+24FB8	kUnihanCore2020	H
 U+24FC2	kCangjie	HAMBI
 U+24FC2	kCheungBauer	106/19;HAMBI;saai4
 U+24FC2	kUnihanCore2020	H
+U+24FC4	kStrange	U
 U+24FEA	kCheungBauer	107/07;;zaap3
 U+25002	kCihaiT	938.301
 U+2502C	kCangjie	MKDHE
@@ -107924,11 +108263,13 @@ U+25055	kCihaiT	939.401
 U+25055	kFenn	606K
 U+25055	kPhonetic	1440
 U+25060	kCihaiT	939.502
+U+2506B	kStrange	I
 U+2507A	kCihaiT	940.303
 U+2509D	kCangjie	OTWT
 U+2509D	kUnihanCore2020	H
 U+250A9	kPhonetic	753
 U+250AB	kCihaiT	943.102
+U+25100	kStrange	I
 U+2510E	kCheungBauer	109/04;;cik1
 U+25117	kPhonetic	49 1423
 U+25128	kPhonetic	90
@@ -107942,11 +108283,13 @@ U+25148	kCangjie	BUYT
 U+25148	kCheungBauer	109/05;BUYT;laap3
 U+25148	kUnihanCore2020	H
 U+25160	kCheungBauer	109/06;;hau1
+U+2516B	kStrange	U
 U+2517D	kCangjie	OMRU
 U+2517D	kUnihanCore2020	H
 U+2517E	kCangjie	BUIG
 U+2517E	kCheungBauer	109/06;BUIG;zong1
 U+2517E	kUnihanCore2020	H
+U+25186	kStrange	I:U+251A8
 U+2519A	kCihaiT	951.406
 U+251CD	kCangjie	BUYAJ
 U+251CD	kUnihanCore2020	H
@@ -107991,6 +108334,7 @@ U+2531B	kCheungBauer	109/15;;lai6
 U+25323	kCihaiT	954.603
 U+2532F	kCihaiT	954.606
 U+2538A	kCihaiT	955.403
+U+253C0	kStrange	U
 U+25419	kCangjie	MRC
 U+25419	kUnihanCore2020	H
 U+25425	kCangjie	MRHN
@@ -108010,8 +108354,10 @@ U+2546E	kCangjie	MRJR
 U+2546E	kUnihanCore2020	H
 U+25490	kPhonetic	710
 U+2549A	kUnihanCore2020	H
+U+2549B	kStrange	I
 U+254FF	kPhonetic	1367
 U+25500	kPhonetic	732*
+U+25506	kStrange	U
 U+25531	kCangjie	MRISM
 U+25531	kCheungBauer	112/10;MRISM;sin3
 U+25531	kUnihanCore2020	H
@@ -108045,6 +108391,7 @@ U+2558F	kUnihanCore2020	H
 U+255A8	kUnihanCore2020	G
 U+255B9	kCangjie	CBMR
 U+255B9	kUnihanCore2020	H
+U+255C9	kStrange	U
 U+255D5	kCangjie	MRTLF
 U+255D5	kUnihanCore2020	H
 U+255DB	kCangjie	CIMR
@@ -108061,6 +108408,7 @@ U+25683	kCangjie	IFWG
 U+25683	kUnihanCore2020	H
 U+25695	kCangjie	IFAA
 U+25695	kUnihanCore2020	H
+U+256C4	kStrange	I:U+799B
 U+256E3	kCangjie	IFKPB
 U+256E3	kUnihanCore2020	H
 U+256F6	kCangjie	IFTGR
@@ -108074,6 +108422,7 @@ U+25725	kUnihanCore2020	H
 U+2573D	kCangjie	YBKB
 U+2573D	kUnihanCore2020	H
 U+2574C	kCihaiT	987.101
+U+2574C	kStrange	I:U+79BE
 U+25762	kPhonetic	791
 U+25772	kCangjie	HDIHU
 U+25772	kUnihanCore2020	H
@@ -108088,6 +108437,8 @@ U+257E0	kCangjie	HDPPA
 U+257E0	kUnihanCore2020	H
 U+257E1	kCangjie	HDJMF
 U+257E1	kUnihanCore2020	H
+U+25844	kStrange	I:U+7A50
+U+2584C	kStrange	I:U+7A50
 U+25857	kCangjie	HDSQF
 U+25857	kUnihanCore2020	H
 U+2585D	kCangjie	HLHDL
@@ -108107,8 +108458,10 @@ U+25945	kCheungBauer	116/04;;lung1
 U+25946	kCangjie	JCVIS
 U+25946	kUnihanCore2020	H
 U+2594D	kCihaiT	1000.102
+U+25952	kStrange	I:U+41A5
 U+25956	kCangjie	JCJR
 U+25956	kUnihanCore2020	H
+U+2597C	kStrange	U
 U+259AC	kCangjie	JCCWN
 U+259AC	kUnihanCore2020	H
 U+259CC	kCangjie	JCVMD
@@ -108119,8 +108472,10 @@ U+259F9	kCheungBauer	116/10;;tam5
 U+25A54	kUnihanCore2020	H
 U+25A58	kCihaiT	1003.402
 U+25A58	kPhonetic	106 767
+U+25A5A	kStrange	I
 U+25A7B	kCihaiT	1004.502
 U+25A7B	kPhonetic	509 767
+U+25A88	kStrange	I
 U+25A95	kCangjie	YTHDL
 U+25A95	kCihaiT	1005.303
 U+25A95	kPhonetic	1054
@@ -108133,6 +108488,7 @@ U+25AAF	kCangjie	YTGGU
 U+25AAF	kUnihanCore2020	H
 U+25AB3	kCihaiT	1006.102
 U+25AB3	kPhonetic	289 767
+U+25AD3	kStrange	U
 U+25AD7	kPhonetic	304
 U+25AE9	kCangjie	HPI
 U+25AE9	kUnihanCore2020	H
@@ -108143,6 +108499,7 @@ U+25B2F	kFenn	190I
 U+25B53	kCihaiT	1014.602
 U+25B74	kCangjie	HYTJ
 U+25B74	kUnihanCore2020	H
+U+25B7B	kStrange	I:U+7BB8
 U+25B89	kCangjie	HIJB
 U+25B89	kUnihanCore2020	H
 U+25B91	kCihaiT	1017.304
@@ -108178,6 +108535,7 @@ U+25CA4	kUnihanCore2020	H
 U+25CC0	kCangjie	HSFI
 U+25CC0	kUnihanCore2020	H
 U+25CC1	kCangjie	HIPM
+U+25CC1	kStrange	I:U+25CA4
 U+25CC1	kUnihanCore2020	H
 U+25CC7	kCihaiT	1022.102
 U+25CCD	kPhonetic	62
@@ -108186,6 +108544,7 @@ U+25CD1	kCihaiT	1021.103
 U+25CD3	kCihaiT	1022.302
 U+25CFE	kCangjie	HCPM
 U+25CFE	kUnihanCore2020	H
+U+25D10	kStrange	U
 U+25D16	kCihaiT	1022.306
 U+25D20	kCangjie	HBUE
 U+25D20	kUnihanCore2020	H
@@ -108197,11 +108556,14 @@ U+25D30	kCangjie	HYTB
 U+25D30	kUnihanCore2020	H
 U+25D43	kCangjie	HIIT
 U+25D43	kUnihanCore2020	H
+U+25D6F	kStrange	I
 U+25D99	kUnihanCore2020	H
 U+25DB9	kUnihanCore2020	H
 U+25DBD	kCihaiT	1018.101
 U+25DD4	kCihaiT	1023.603
+U+25DE0	kStrange	U
 U+25DE4	kCihaiT	1024.102
+U+25DF9	kStrange	U
 U+25E0E	kCangjie	HBFF
 U+25E0E	kUnihanCore2020	H
 U+25E49	kCangjie	FDWE
@@ -108225,9 +108587,14 @@ U+25ED8	kUnihanCore2020	H
 U+25EFF	kPhonetic	786
 U+25F1A	kCangjie	FDOGF
 U+25F1A	kUnihanCore2020	H
+U+25F26	kStrange	I
 U+25F4B	kCangjie	FDOMO
 U+25F4B	kUnihanCore2020	H
 U+25F58	kPhonetic	906
+U+25F6E	kStrange	U
+U+25F94	kStrange	I:U+7D0D
+U+25FAC	kStrange	I:U+7D43
+U+25FAD	kStrange	I
 U+25FC9	kCihaiT	1040.302
 U+25FE1	kCangjie	VFSP
 U+25FE1	kUnihanCore2020	H
@@ -108266,6 +108633,8 @@ U+2615B	kCangjie	VFSMI
 U+2615B	kUnihanCore2020	H
 U+2615C	kCangjie	VFJMN
 U+2615C	kUnihanCore2020	H
+U+26165	kStrange	I
+U+2616A	kStrange	U
 U+26188	kCihaiT	1061.504
 U+261AD	kCangjie	VFJPN
 U+261AD	kUnihanCore2020	H
@@ -108288,10 +108657,14 @@ U+26258	kUnihanCore2020	H
 U+26261	kCangjie	OMAMI
 U+26261	kCihaiT	1064.401
 U+26261	kUnihanCore2020	H
+U+26269	kStrange	U
 U+2626A	kCangjie	BC
+U+2626A	kStrange	I:U+56DB
 U+2626A	kUnihanCore2020	H
 U+2626B	kCangjie	BLL
+U+2626B	kStrange	I:U+800C
 U+2626B	kUnihanCore2020	H
+U+26285	kStrange	I:U+7A81
 U+26299	kPhonetic	753
 U+2629F	kPhonetic	753
 U+262C6	kCihaiT	1065.503
@@ -108299,6 +108672,7 @@ U+262C7	kPhonetic	108
 U+262D0	kCangjie	BCYAJ
 U+262D0	kUnihanCore2020	H
 U+2630A	kCihaiT	1066.204
+U+26316	kStrange	I
 U+26335	kCangjie	WLWWW
 U+26335	kUnihanCore2020	H
 U+2634B	kCangjie	TQ
@@ -108309,9 +108683,11 @@ U+26351	kCangjie	TGHI
 U+26351	kPhonetic	608
 U+26351	kUnihanCore2020	H
 U+26352	kCihaiT	1070.301
+U+26356	kStrange	I
 U+263B9	kCihaiT	1073.101
 U+263BE	kCangjie	TQSYQ
 U+263BE	kUnihanCore2020	H
+U+263F2	kStrange	U
 U+263F5	kCangjie	SMIP
 U+263F5	kUnihanCore2020	H
 U+263F8	kCangjie	SMPD
@@ -108328,6 +108704,7 @@ U+26411	kCangjie	YKSMM
 U+26411	kUnihanCore2020	H
 U+26412	kCangjie	SMHT
 U+26412	kUnihanCore2020	H
+U+26419	kStrange	I
 U+2644A	kCangjie	SMQMB
 U+2644A	kUnihanCore2020	H
 U+26469	kCangjie	SMBJJ
@@ -108345,10 +108722,13 @@ U+2648D	kUnihanCore2020	GH
 U+26498	kCangjie	MUSMM
 U+26498	kUnihanCore2020	H
 U+2649C	kPhonetic	1298*
+U+264CB	kStrange	U
+U+264D0	kStrange	I:U+800C
 U+26512	kCangjie	QDTVI
 U+26512	kUnihanCore2020	H
 U+2652E	kCihaiT	1081.601
 U+2652E	kPhonetic	205
+U+26541	kStrange	I
 U+26543	kPhonetic	1570
 U+26548	kPhonetic	910
 U+26553	kCihaiT	1082.601
@@ -108362,13 +108742,16 @@ U+265BF	kCangjie	SJTOR
 U+265BF	kCheungBauer	128/10;SJTOR;dap1
 U+265BF	kUnihanCore2020	H
 U+265C0	kPhonetic	63
+U+265C9	kStrange	I:U+2C6A6
 U+26612	kCangjie	LJ
+U+26612	kStrange	I:U+807F
 U+26612	kUnihanCore2020	H
 U+26626	kCangjie	IKLQ
 U+26626	kUnihanCore2020	H
 U+26629	kCheungBauer	130/02;;paa4
 U+26634	kCihaiT	1089.202
 U+2664D	kCihaiT	1091.303
+U+2664D	kStrange	I:U+80E4
 U+2666B	kCihaiT	1095.101
 U+26676	kUnihanCore2020	G
 U+266A7	kPhonetic	318
@@ -108389,6 +108772,7 @@ U+26715	kCihaiT	1100.104
 U+26716	kCangjie	BMLM
 U+26716	kCheungBauer	130/08;BMLM;[ng]aa6
 U+26716	kUnihanCore2020	H
+U+26738	kStrange	I
 U+26741	kCangjie	BTMC
 U+26741	kUnihanCore2020	H
 U+26760	kPhonetic	827 922 1584
@@ -108405,8 +108789,10 @@ U+267CC	kCangjie	BSTV
 U+267CC	kCheungBauer	130/10;BSTV;zin2
 U+267CC	kUnihanCore2020	HM
 U+267E4	kPhonetic	1139*
+U+267ED	kStrange	U
 U+267F0	kCihaiT	1104.101
 U+26806	kCihaiT	1104.202
+U+26817	kStrange	U
 U+2681C	kCangjie	BTMJ
 U+2681C	kUnihanCore2020	H
 U+2683F	kCihaiT	1105.206
@@ -108433,7 +108819,10 @@ U+268C7	kUnihanCore2020	H
 U+268DD	kCihaiT	1106.301
 U+268DD	kPhonetic	1543
 U+268DE	kPhonetic	1543
+U+268E9	kStrange	F:U+268E6
 U+268F1	kPhonetic	16
+U+268F7	kStrange	U
+U+268FA	kStrange	I:U+81EF
 U+2690E	kCangjie	HUDM
 U+2690E	kUnihanCore2020	H
 U+26911	kCangjie	HUKQ
@@ -108450,22 +108839,29 @@ U+26951	kCihaiT	1112.503
 U+26951	kUnihanCore2020	H
 U+2695B	kPhonetic	41
 U+2695D	kCihaiT	1112.604
+U+26965	kStrange	I
 U+2696F	kFenn	692P
 U+2696F	kPhonetic	494
+U+2697A	kStrange	U
 U+26999	kPhonetic	672 1616
 U+269A8	kCangjie	BXFF
 U+269A8	kUnihanCore2020	H
 U+269B5	kCangjie	HBDCI
 U+269B5	kUnihanCore2020	H
+U+269C4	kStrange	S:42
+U+269C5	kStrange	S:48
 U+269DD	kCihaiT	1116.401
 U+269E1	kPhonetic	1568
 U+269F2	kCangjie	HRWVF
 U+269F2	kCheungBauer	135/11;HRWFV;loe1,loe2
 U+269F2	kUnihanCore2020	H
 U+269F4	kCihaiT	1116.407
+U+269F5	kStrange	U
 U+269FA	kCangjie	HRDLC
 U+269FA	kCheungBauer	135/16;HRDLC;laai2
 U+269FA	kUnihanCore2020	H
+U+26A03	kStrange	A
+U+26A0A	kStrange	I:U+26A0E
 U+26A2D	kCangjie	HYDHE
 U+26A2D	kUnihanCore2020	H
 U+26A2E	kCangjie	HYOIP
@@ -108480,10 +108876,12 @@ U+26A51	kCangjie	HYDOO
 U+26A51	kUnihanCore2020	H
 U+26A52	kCangjie	HYMLM
 U+26A52	kUnihanCore2020	H
+U+26A67	kStrange	U
 U+26A77	kCihaiT	1119.102
 U+26A87	kCihaiT	1119.109
 U+26A91	kCihaiT	1119.111
 U+26AAD	kCihaiT	1119.203
+U+26AF7	kStrange	I:U+8298
 U+26AFD	kPhonetic	766
 U+26B05	kCangjie	TR
 U+26B05	kUnihanCore2020	H
@@ -108499,9 +108897,11 @@ U+26B23	kCihaiT	1128.405
 U+26B23	kUnihanCore2020	H
 U+26B28	kCangjie	TSO
 U+26B28	kUnihanCore2020	H
+U+26B34	kStrange	I:U+44AB
 U+26B38	kCihaiT	1134.501
 U+26B3A	kCihaiT	1132.402
 U+26B3B	kCihaiT	1134.502
+U+26B44	kStrange	I:U+8326
 U+26B50	kCangjie	THMY
 U+26B50	kUnihanCore2020	H
 U+26B51	kCangjie	TEMN
@@ -108513,18 +108913,25 @@ U+26B53	kUnihanCore2020	H
 U+26B5B	kCangjie	TOHJ
 U+26B5B	kUnihanCore2020	H
 U+26B5C	kUnihanCore2020	G
+U+26B62	kStrange	M
+U+26B69	kStrange	A
 U+26B6E	kCihaiT	1138.502
+U+26B71	kStrange	I
 U+26B75	kCangjie	TTQ
 U+26B75	kUnihanCore2020	H
 U+26B80	kCihaiT	1139.203
+U+26B81	kStrange	I:U+26C19
 U+26B82	kCangjie	TPA
 U+26B82	kUnihanCore2020	H
+U+26B8F	kStrange	U
 U+26B96	kCangjie	TMJO
 U+26B96	kUnihanCore2020	H
 U+26B97	kCangjie	TWV
 U+26B97	kUnihanCore2020	H
+U+26B99	kStrange	O
 U+26B9D	kCangjie	TPYV
 U+26B9D	kUnihanCore2020	H
+U+26B9F	kStrange	I
 U+26BB3	kCangjie	TOYM
 U+26BB3	kUnihanCore2020	H
 U+26BBA	kCihaiT	1141.603
@@ -108535,6 +108942,9 @@ U+26BCA	kCihaiT	1142.203
 U+26BCB	kCihaiT	1141.102
 U+26BF7	kCangjie	TVFH
 U+26BF7	kUnihanCore2020	H
+U+26BFA	kStrange	I:U+83E8
+U+26BFE	kStrange	I
+U+26C18	kStrange	I:U+83E7
 U+26C21	kCangjie	TSQL
 U+26C21	kUnihanCore2020	GH
 U+26C29	kPhonetic	546
@@ -108544,6 +108954,9 @@ U+26C40	kUnihanCore2020	H
 U+26C41	kUnihanCore2020	H
 U+26C46	kUnihanCore2020	H
 U+26C54	kCihaiT	1148.204
+U+26C60	kStrange	U
+U+26C66	kStrange	I:U+8463
+U+26C79	kStrange	U
 U+26C7E	kCangjie	TGMJ
 U+26C7E	kUnihanCore2020	H
 U+26C7F	kCangjie	THOK
@@ -108593,6 +109006,7 @@ U+26D51	kCangjie	TYTI
 U+26D51	kUnihanCore2020	H
 U+26D74	kCangjie	TNQD
 U+26D74	kUnihanCore2020	H
+U+26D9B	kStrange	U
 U+26DA0	kCangjie	TDAV
 U+26DA0	kUnihanCore2020	H
 U+26DA1	kCangjie	TEHR
@@ -108611,6 +109025,7 @@ U+26DA7	kCangjie	TYCV
 U+26DA7	kUnihanCore2020	H
 U+26DAE	kCangjie	TQDI
 U+26DAE	kUnihanCore2020	H
+U+26DC3	kStrange	I
 U+26DDC	kCangjie	TMUE
 U+26DDC	kUnihanCore2020	H
 U+26DEA	kCangjie	TEBV
@@ -108619,6 +109034,7 @@ U+26DEB	kCangjie	TEOY
 U+26DEB	kUnihanCore2020	H
 U+26DF0	kCangjie	TEBD
 U+26DF0	kUnihanCore2020	H
+U+26DF6	kStrange	U
 U+26E00	kCangjie	TTCG
 U+26E00	kUnihanCore2020	H
 U+26E05	kCangjie	TJMV
@@ -108637,6 +109053,7 @@ U+26E44	kCangjie	TVFR
 U+26E44	kUnihanCore2020	H
 U+26E45	kCangjie	TVJU
 U+26E45	kUnihanCore2020	H
+U+26E57	kStrange	C
 U+26E6E	kCangjie	TBDH
 U+26E6E	kUnihanCore2020	H
 U+26E72	kCangjie	TEAP
@@ -108672,6 +109089,7 @@ U+26F26	kCangjie	TIST
 U+26F26	kUnihanCore2020	H
 U+26F2F	kPhonetic	307
 U+26F4A	kCihaiT	1171.502
+U+26F71	kStrange	U
 U+26F73	kCangjie	TBP
 U+26F73	kUnihanCore2020	H
 U+26F74	kCangjie	TYTB
@@ -108683,16 +109101,19 @@ U+26FA1	kCangjie	TVUK
 U+26FA1	kUnihanCore2020	H
 U+26FBE	kCangjie	TYBU
 U+26FBE	kUnihanCore2020	H
+U+26FD1	kStrange	U
 U+26FDE	kCangjie	TEHP
 U+26FDE	kUnihanCore2020	H
 U+26FDF	kCangjie	TVFR
 U+26FDF	kUnihanCore2020	H
+U+2700D	kStrange	O
 U+2700E	kCangjie	TYRB
 U+2700E	kUnihanCore2020	H
 U+2702B	kCihaiT	1176.501
 U+2702E	kCihaiT	1176.304
 U+27034	kCihaiT	1176.308
 U+27039	kFenn	201G
+U+27047	kStrange	U
 U+2704B	kCangjie	TOKP
 U+2704B	kUnihanCore2020	H
 U+27052	kCangjie	TDTE
@@ -108733,9 +109154,12 @@ U+27164	kCangjie	TJMC
 U+27164	kUnihanCore2020	H
 U+27165	kCangjie	TGEA
 U+27165	kUnihanCore2020	H
+U+27172	kStrange	U
 U+27175	kCangjie	TYCJ
 U+27175	kUnihanCore2020	H
 U+27193	kCihaiT	1182.202
+U+27195	kStrange	U
+U+27198	kStrange	S:43 U
 U+271A8	kPhonetic	383 820
 U+271B2	kPhonetic	457
 U+271CD	kCangjie	OUYPU
@@ -108748,6 +109172,7 @@ U+27253	kPhonetic	1376
 U+27262	kCihaiT	1188.607
 U+27267	kCihaiT	1189.103
 U+27267	kUnihanCore2020	H
+U+27268	kStrange	I:U+86E9
 U+27280	kCangjie	LIKSR
 U+27280	kUnihanCore2020	H
 U+27285	kCangjie	LIRKS
@@ -108790,6 +109215,7 @@ U+27422	kUnihanCore2020	H
 U+27444	kPhonetic	324
 U+27450	kCangjie	LINHB
 U+27450	kUnihanCore2020	H
+U+27475	kStrange	I
 U+27484	kCangjie	LIANA
 U+27484	kUnihanCore2020	H
 U+27486	kCangjie	LITWI
@@ -108798,15 +109224,21 @@ U+2748E	kCihaiT	1199.601
 U+27492	kCihaiT	1200.107
 U+27496	kCihaiT	1200.102
 U+27498	kCihaiT	1200.106
+U+2749F	kStrange	U
 U+274CD	kPhonetic	1018
 U+274FD	kCihaiT	1201.205
+U+27517	kStrange	U
 U+2751E	kCihaiT	1201.304
+U+2752F	kStrange	U
+U+27538	kStrange	I
 U+27544	kCihaiT	1201.503
 U+2754F	kPhonetic	1215
 U+27574	kCangjie	TGLMI
 U+27574	kCheungBauer	142/19;TGLMI;naan3
 U+27574	kUnihanCore2020	H
 U+27585	kCihaiT	1202.503
+U+27589	kStrange	U
+U+2758E	kStrange	U
 U+275A3	kCangjie	LIVFI
 U+275A3	kUnihanCore2020	H
 U+275D7	kCihaiT	1203.502
@@ -108814,16 +109246,19 @@ U+275E0	kCangjie	HOIMN
 U+275E0	kUnihanCore2020	H
 U+275E4	kCangjie	HOHKN
 U+275E4	kUnihanCore2020	H
+U+275EE	kStrange	I:U+8859
 U+275FD	kCangjie	HONKN
 U+275FD	kUnihanCore2020	H
 U+275FE	kCangjie	HONKN
 U+275FE	kUnihanCore2020	H
 U+27602	kCihaiT	1208.401
 U+27607	kCangjie	HV
+U+27607	kStrange	I:U+8863
 U+27607	kUnihanCore2020	H
 U+27608	kCihaiT	1209.201
 U+2760C	kCangjie	LNHS
 U+2760C	kUnihanCore2020	H
+U+2761B	kStrange	I:U+88A8
 U+27632	kCangjie	LYLM
 U+27632	kUnihanCore2020	H
 U+27639	kCangjie	LKI
@@ -108857,12 +109292,15 @@ U+27735	kCangjie	LKPB
 U+27735	kUnihanCore2020	H
 U+27736	kCangjie	LSEG
 U+27736	kUnihanCore2020	H
+U+27738	kStrange	U
 U+27741	kCangjie	LWLM
 U+27741	kUnihanCore2020	H
 U+2774E	kCihaiT	1220.401
+U+27751	kStrange	U
 U+2775E	kCangjie	LVII
 U+2775E	kCheungBauer	145/08;LVII;gei1
 U+2775E	kUnihanCore2020	H
+U+27763	kStrange	U
 U+27784	kCangjie	LHWS
 U+27784	kUnihanCore2020	H
 U+27785	kCangjie	LYGQ
@@ -108872,27 +109310,38 @@ U+277AB	kCihaiT	1221.303
 U+277B6	kCihaiT	1221.403
 U+277CC	kCangjie	LWLG
 U+277CC	kUnihanCore2020	H
+U+277DC	kStrange	U
+U+27825	kStrange	I:U+27835
 U+27858	kCangjie	GFBUU
 U+27858	kUnihanCore2020	H
 U+2785D	kPhonetic	1334
 U+27870	kCangjie	AMBUU
 U+27870	kUnihanCore2020	H
+U+2789B	kStrange	U
 U+2789D	kCangjie	MBBUU
 U+2789D	kCheungBauer	147/15;MBBUU;lai6
 U+2789D	kUnihanCore2020	H
+U+278B0	kStrange	U
+U+278B1	kStrange	S:44
 U+278B2	kCangjie	NBOO
 U+278B2	kUnihanCore2020	H
 U+278C8	kCangjie	NBHQ
 U+278C8	kCheungBauer	148/04;NBHQ;caau1
 U+278C8	kUnihanCore2020	H
+U+278D8	kStrange	I
 U+278F4	kCihaiT	1235.506
 U+27917	kCihaiT	1235.605
 U+27924	kCangjie	NBOGS
 U+27924	kUnihanCore2020	H
 U+2793A	kCihaiT	1236.202
 U+2794F	kCihaiT	1236.403
+U+27951	kStrange	R
+U+2795B	kStrange	I:U+8A00
+U+2795C	kStrange	I:U+8A00
 U+27967	kCangjie	NIYMR
 U+27967	kUnihanCore2020	H
+U+27968	kStrange	I:U+8A4D
+U+2796A	kStrange	I:U+8A1D:U+2796F
 U+2797A	kCangjie	YRPIM
 U+2797A	kCheungBauer	149/04;;kwan1
 U+2797A	kUnihanCore2020	H
@@ -108902,9 +109351,11 @@ U+279A0	kCheungBauer	149/04;YRMSU;[ng]aak1
 U+279A0	kUnihanCore2020	H
 U+279A6	kCihaiT	1242.103
 U+279A7	kCihaiT	1242.201
+U+279B6	kStrange	I:U+8A71
 U+279DD	kCangjie	YRMMH
 U+279DD	kCheungBauer	149/06;YRMMH;[ng]aa6
 U+279DD	kUnihanCore2020	H
+U+279DF	kStrange	I:U+471F
 U+279FC	kCihaiT	1245.602
 U+279FD	kCangjie	YRHEJ
 U+279FD	kUnihanCore2020	H
@@ -108913,6 +109364,7 @@ U+27A0A	kCheungBauer	149/07;YRMHS;zaa6
 U+27A0A	kUnihanCore2020	H
 U+27A0E	kCangjie	YRJMU
 U+27A0E	kUnihanCore2020	H
+U+27A25	kStrange	I:U+8AD9
 U+27A3E	kCangjie	YRBCD
 U+27A3E	kCheungBauer	149/08;YRBCD;tam3
 U+27A3E	kUnihanCore2020	H
@@ -108949,9 +109401,12 @@ U+27B48	kCangjie	YRJPN
 U+27B48	kCihaiT	1257.302
 U+27B48	kUnihanCore2020	H
 U+27B49	kCihaiT	1257.202
+U+27B5B	kStrange	U
 U+27B65	kUnihanCore2020	H
 U+27B66	kCihaiT	1257.602
 U+27B88	kCihaiT	1259.402
+U+27B9F	kStrange	U
+U+27BA6	kStrange	U
 U+27BAB	kCihaiT	1260.201
 U+27BAC	kCihaiT	1260.202
 U+27BB0	kCihaiT	1260.206
@@ -108964,9 +109419,13 @@ U+27BF4	kUnihanCore2020	H
 U+27C12	kCangjie	GTWIM
 U+27C12	kUnihanCore2020	H
 U+27C19	kCihaiT	1262.102
+U+27C1E	kStrange	I
+U+27C27	kStrange	I:U+8C55
+U+27C28	kStrange	I:U+8C55
 U+27C3C	kPhonetic	115
 U+27C6C	kCihaiT	1265.301
 U+27C6C	kUnihanCore2020	H
+U+27C8F	kStrange	U
 U+27CB1	kCihaiT	1266.304
 U+27CB1	kUnihanCore2020	H
 U+27CC5	kCihaiT	1266.501
@@ -109009,6 +109468,7 @@ U+27DC7	kPhonetic	315
 U+27DDC	kCangjie	BCCIM
 U+27DDC	kUnihanCore2020	H
 U+27E16	kCihaiT	1279.405
+U+27E42	kStrange	R:U+8D19
 U+27E4D	kCangjie	FUHUC
 U+27E4D	kUnihanCore2020	H
 U+27E4F	kCangjie	BCHUC
@@ -109017,6 +109477,7 @@ U+27E5B	kCihaiT	1282.403
 U+27E5E	kCihaiT	1282.405
 U+27E6C	kCihaiT	1283.502
 U+27E89	kPhonetic	220
+U+27E90	kStrange	I:U+27E99
 U+27ED9	kCheungBauer	156/06;;mut6
 U+27F2E	kFenn	236E
 U+27F2E	kPhonetic	1529*
@@ -109029,8 +109490,11 @@ U+27F62	kCihaiT	1287.404
 U+27F7B	kCihaiT	1287.405
 U+27F7C	kCihaiT	1287.503
 U+27F8D	kCihaiT	1287.504
+U+27F9C	kStrange	U
 U+27FA5	kCihaiT	1287.508
+U+27FAD	kStrange	U
 U+27FB7	kPhonetic	303
+U+27FCB	kStrange	I:U+27FD3:U+2C9A4
 U+27FD2	kCheungBauer	157/04;;dam6
 U+27FD2	kCihaiT	1288.205
 U+27FEB	kCheungBauer	157/04;;tau2
@@ -109040,6 +109504,7 @@ U+28002	kCangjie	MRRYO
 U+28002	kUnihanCore2020	H
 U+28009	kCangjie	RMJMN
 U+28009	kUnihanCore2020	H
+U+28013	kStrange	I
 U+28015	kCihaiT	1291.101
 U+2801E	kCangjie	RMLQ
 U+2801E	kUnihanCore2020	H
@@ -109049,6 +109514,7 @@ U+28023	kUnihanCore2020	H
 U+28024	kCangjie	RMQD
 U+28024	kCheungBauer	157/06;RMQD;leoi1
 U+28024	kUnihanCore2020	H
+U+28029	kStrange	I:U+8E3B
 U+28043	kPhonetic	1310
 U+28048	kCangjie	RMMLK
 U+28048	kCheungBauer	157/07;MRMLK;gaang3
@@ -109109,6 +109575,8 @@ U+281EF	kCihaiT	1295.407
 U+28207	kCangjie	RMSWU
 U+28207	kCheungBauer	157/21;RMSWU;laam3
 U+28207	kUnihanCore2020	H
+U+28210	kStrange	I:U+8EAB
+U+28211	kStrange	I:U+8EAB
 U+28218	kCangjie	HHFH
 U+28218	kUnihanCore2020	H
 U+2821A	kCangjie	HHPP
@@ -109124,6 +109592,7 @@ U+2829B	kCheungBauer	158/16;HHMDM;laak3
 U+2829B	kUnihanCore2020	H
 U+282A0	kCihaiT	1298.601
 U+282A0	kPhonetic	8 345
+U+282A3	kStrange	K:U+30C8
 U+282B7	kCihaiT	1299.408
 U+282CC	kPhonetic	734
 U+282CD	kCangjie	JJIHU
@@ -109157,9 +109626,12 @@ U+283D2	kCihaiT	1308.206
 U+283D4	kCihaiT	1308.208
 U+283E1	kCihaiT	1308.303
 U+283E2	kCihaiT	1308.304
+U+283FF	kStrange	U
 U+28408	kUnihanCore2020	G
+U+2840B	kStrange	U
 U+28412	kCangjie	JRYTJ
 U+28412	kUnihanCore2020	H
+U+2844E	kStrange	I:U+2847E
 U+28468	kCangjie	YA
 U+28468	kUnihanCore2020	H
 U+2846C	kCangjie	YT
@@ -109169,10 +109641,13 @@ U+28473	kUnihanCore2020	H
 U+28482	kCangjie	YHYM
 U+28482	kUnihanCore2020	H
 U+28485	kCihaiT	1313.501
+U+28498	kStrange	I:U+284AA
 U+284A5	kCihaiT	1316.201
 U+284AE	kCihaiT	1316.202
+U+284B5	kStrange	I:U+904E
 U+28501	kCangjie	YYWN
 U+28501	kUnihanCore2020	H
+U+28538	kStrange	I:U+9058
 U+2853C	kCangjie	YDOD
 U+2853C	kUnihanCore2020	H
 U+2853D	kCangjie	YTKR
@@ -109197,6 +109672,7 @@ U+28625	kCangjie	YHGR
 U+28625	kUnihanCore2020	H
 U+2863B	kCangjie	YHGV
 U+2863B	kUnihanCore2020	H
+U+28668	kStrange	M:U+9091
 U+28678	kUnihanCore2020	G
 U+28695	kUnihanCore2020	G
 U+286AA	kCangjie	YTNL
@@ -109210,6 +109686,7 @@ U+286BC	kUnihanCore2020	H
 U+286CD	kCihaiT	1340.101
 U+286D8	kCangjie	HGNL
 U+286D8	kUnihanCore2020	H
+U+286DC	kStrange	F:U+48C8
 U+286E6	kCangjie	SRRAU
 U+286E6	kUnihanCore2020	H
 U+286EC	kCihaiT	1340.105
@@ -109217,6 +109694,8 @@ U+2870F	kCangjie	NTNL
 U+2870F	kUnihanCore2020	H
 U+28713	kCangjie	YCNL
 U+28713	kUnihanCore2020	H
+U+287A0	kStrange	F
+U+287B0	kStrange	F
 U+287E0	kUnihanCore2020	G
 U+28804	kCangjie	MWIKU
 U+28804	kUnihanCore2020	H
@@ -109229,14 +109708,17 @@ U+288A2	kCihaiT	1355.403
 U+288E8	kCihaiT	1356.105
 U+2890D	kUnihanCore2020	H
 U+2890E	kCihaiT	1356.305
+U+28925	kStrange	I:U+91CF
 U+28933	kCangjie	DDMWG
 U+28933	kUnihanCore2020	H
+U+28944	kStrange	F U
 U+28948	kCangjie	CSU
 U+28948	kUnihanCore2020	H
 U+28949	kCangjie	CU
 U+28949	kUnihanCore2020	H
 U+28956	kCangjie	CEE
 U+28956	kUnihanCore2020	H
+U+2895D	kStrange	I:U+9232
 U+28964	kCangjie	CNIN
 U+28964	kUnihanCore2020	H
 U+28968	kCangjie	CNIH
@@ -109244,6 +109726,8 @@ U+28968	kUnihanCore2020	H
 U+2896C	kCangjie	VEC
 U+2896C	kUnihanCore2020	H
 U+2896D	kUnihanCore2020	H
+U+28973	kStrange	I:U+28989
+U+28979	kStrange	I:U+92AB
 U+2897E	kCangjie	CMFJ
 U+2897E	kUnihanCore2020	H
 U+28989	kCangjie	CDB
@@ -109439,6 +109923,7 @@ U+28BFF	kCangjie	CSIC
 U+28BFF	kUnihanCore2020	H
 U+28C03	kCangjie	CBCV
 U+28C03	kUnihanCore2020	H
+U+28C06	kStrange	I
 U+28C09	kCangjie	CHTL
 U+28C09	kUnihanCore2020	H
 U+28C0D	kCihaiT	1398.506
@@ -109458,6 +109943,7 @@ U+28C30	kUnihanCore2020	H
 U+28C39	kCangjie	CSWC
 U+28C39	kUnihanCore2020	H
 U+28C3B	kCangjie	CCCC
+U+28C3B	kStrange	U
 U+28C3B	kUnihanCore2020	H
 U+28C47	kUnihanCore2020	G
 U+28C4F	kUnihanCore2020	G
@@ -109465,6 +109951,8 @@ U+28C51	kUnihanCore2020	G
 U+28C54	kUnihanCore2020	G
 U+28C9E	kCihaiT	1403.403
 U+28CA0	kCihaiT	1403.404
+U+28CC7	kStrange	I:U+9580
+U+28CC8	kStrange	F:U+9580
 U+28CCA	kCangjie	ANKN
 U+28CCA	kCheungBauer	169/02;ANKN;gau1
 U+28CCA	kUnihanCore2020	H
@@ -109474,15 +109962,18 @@ U+28CCD	kUnihanCore2020	H
 U+28CD2	kCangjie	ANF
 U+28CD2	kCheungBauer	169/03;ANF;diu2
 U+28CD2	kUnihanCore2020	H
+U+28D1F	kStrange	U
 U+28D34	kCangjie	ANOMC
 U+28D34	kUnihanCore2020	H
 U+28D66	kCihaiT	1410.604
 U+28D7F	kPhonetic	706
+U+28D8D	kStrange	I
 U+28D99	kCangjie	ANIBP
 U+28D99	kCheungBauer	169/10;ANIBP;lan2
 U+28D99	kUnihanCore2020	H
 U+28DB9	kCangjie	ANVFF
 U+28DB9	kUnihanCore2020	H
+U+28DFE	kStrange	U
 U+28E0F	kCangjie	HRLR
 U+28E0F	kUnihanCore2020	H
 U+28E1A	kPhonetic	581*
@@ -109494,6 +109985,8 @@ U+28E65	kCangjie	NLCNH
 U+28E65	kUnihanCore2020	H
 U+28E66	kCangjie	NLRD
 U+28E66	kUnihanCore2020	H
+U+28E85	kStrange	F
+U+28E8A	kStrange	I
 U+28E97	kCangjie	NLYLO
 U+28E97	kUnihanCore2020	H
 U+28E99	kUnihanCore2020	G
@@ -109505,17 +109998,28 @@ U+28EB3	kCangjie	NLNBS
 U+28EB3	kUnihanCore2020	H
 U+28ED9	kCangjie	NLAFU
 U+28ED9	kUnihanCore2020	H
+U+28EDB	kStrange	I
 U+28EE7	kCangjie	NLHHW
 U+28EE7	kUnihanCore2020	H
 U+28EF3	kCihaiT	1433.502
 U+28EF6	kCihaiT	1433.601
+U+28F31	kStrange	F
+U+28F44	kStrange	F
 U+28F4C	kPhonetic	1483A
+U+28F5D	kStrange	F
+U+28F61	kStrange	F
+U+28F69	kStrange	F
+U+28F74	kStrange	F
+U+28F75	kStrange	F
 U+28FC1	kCihaiT	1440.402
 U+28FC5	kCangjie	NROG
 U+28FC5	kUnihanCore2020	H
 U+28FFD	kPhonetic	285
+U+2900F	kStrange	U
 U+29028	kCihaiT	1446.302
 U+29079	kUnihanCore2020	H
+U+2907E	kStrange	I:U+96ED
+U+2907F	kStrange	M:U+96EA
 U+29082	kPhonetic	1239
 U+29088	kCangjie	MBP
 U+29088	kUnihanCore2020	H
@@ -109523,6 +110027,7 @@ U+2908B	kCangjie	MBHML
 U+2908B	kUnihanCore2020	H
 U+29093	kCangjie	MBHEY
 U+29093	kUnihanCore2020	H
+U+2909A	kStrange	I
 U+290A3	kCihaiT	1454.401
 U+290AF	kCangjie	MBOD
 U+290AF	kUnihanCore2020	H
@@ -109557,19 +110062,25 @@ U+2915E	kCihaiT	1457.402
 U+2915E	kUnihanCore2020	H
 U+29170	kCangjie	MBTCL
 U+29170	kUnihanCore2020	H
+U+29176	kStrange	U
 U+29178	kCihaiT	1457.404
 U+2919C	kCangjie	MBRRI
 U+2919C	kUnihanCore2020	H
 U+291A8	kCangjie	MBCHJ
 U+291A8	kUnihanCore2020	H
+U+291C3	kStrange	U
+U+291D3	kStrange	S:40 U
+U+291D4	kStrange	S:48 U
 U+291D5	kCangjie	QBHHH
 U+291D5	kUnihanCore2020	H
 U+291DB	kCihaiT	1463.201
 U+291DB	kPhonetic	203
+U+291E7	kStrange	O
 U+291EB	kCangjie	LYND
 U+291EB	kUnihanCore2020	H
 U+291EF	kCihaiT	1464.602
 U+29281	kCihaiT	1467.104
+U+2928B	kStrange	I
 U+29293	kCihaiT	1467.302
 U+2929A	kCihaiT	1467.303
 U+2929A	kPhonetic	646
@@ -109586,6 +110097,7 @@ U+29353	kCihaiT	1469.401
 U+2935C	kCihaiT	1469.402
 U+29369	kCihaiT	1469.406
 U+2937F	kCihaiT	1469.504
+U+2938E	kStrange	U
 U+2939F	kPhonetic	894
 U+29405	kCihaiT	1472.304
 U+2941D	kCangjie	YAPR
@@ -109598,10 +110110,13 @@ U+2943F	kCangjie	YAAYF
 U+2943F	kUnihanCore2020	H
 U+29448	kCangjie	YAITC
 U+29448	kUnihanCore2020	H
+U+2944E	kStrange	I:U+9806
 U+29452	kCihaiT	1475.601
 U+2945E	kCihaiT	1476.602
 U+2947A	kCihaiT	1477.401
 U+2947A	kPhonetic	1570
+U+2947F	kStrange	I:U+29495
+U+2948B	kStrange	I:U+29495
 U+294D0	kCangjie	JDMBC
 U+294D0	kPhonetic	1093
 U+294D0	kUnihanCore2020	H
@@ -109635,6 +110150,10 @@ U+295E9	kUnihanCore2020	H
 U+295F4	kCangjie	HNQKQ
 U+295F4	kCheungBauer	182/08;HNQKQ;bung6
 U+295F4	kUnihanCore2020	H
+U+29661	kStrange	U
+U+29663	kStrange	S:46 U
+U+29664	kStrange	S:48 U
+U+296D6	kStrange	I
 U+296FB	kCihaiT	1493.403
 U+29707	kFenn	467H
 U+29707	kPhonetic	665*
@@ -109657,6 +110176,7 @@ U+29810	kCangjie	VVMBU
 U+29810	kUnihanCore2020	H
 U+29857	kCangjie	HAHUK
 U+29857	kUnihanCore2020	H
+U+29867	kStrange	U
 U+298A4	kCangjie	SFMGI
 U+298A4	kUnihanCore2020	H
 U+298B0	kCihaiT	1506.603
@@ -109702,6 +110222,8 @@ U+299C3	kUnihanCore2020	H
 U+299C9	kCangjie	SFITC
 U+299C9	kCihaiT	1511.406
 U+299C9	kUnihanCore2020	H
+U+299DD	kStrange	U
+U+299E2	kStrange	U
 U+29A12	kPhonetic	596
 U+29A28	kCangjie	BBPP
 U+29A28	kUnihanCore2020	H
@@ -109726,13 +110248,20 @@ U+29BD5	kCangjie	SHNMU
 U+29BD5	kUnihanCore2020	H
 U+29BED	kPhonetic	1018
 U+29C01	kCihaiT	1519.604
+U+29C0A	kStrange	I:U+9B25
+U+29C0B	kStrange	I:U+9B25
 U+29C13	kCihaiT	1520.202
+U+29C1C	kStrange	I:U+29C1F
 U+29C66	kCihaiT	1521.502
 U+29C73	kCangjie	NNMRB
 U+29C73	kUnihanCore2020	H
+U+29C86	kStrange	I:U+9B3D
+U+29C87	kStrange	I
 U+29CAD	kCangjie	HIIPJ
 U+29CAD	kUnihanCore2020	H
 U+29D2A	kCihaiT	1524.103
+U+29D2B	kStrange	I:U+2B64E
+U+29D30	kStrange	I
 U+29D3E	kCangjie	HITWI
 U+29D3E	kUnihanCore2020	H
 U+29D4B	kPhonetic	1605
@@ -109841,6 +110370,8 @@ U+2A220	kCangjie	IPHAF
 U+2A220	kUnihanCore2020	H
 U+2A233	kCangjie	HFMMP
 U+2A233	kUnihanCore2020	H
+U+2A235	kStrange	U
+U+2A240	kStrange	U
 U+2A278	kCihaiT	1547.201
 U+2A289	kCihaiT	1548.501
 U+2A291	kCihaiT	1549.601
@@ -109888,6 +110419,7 @@ U+2A45B	kCangjie	UFOK
 U+2A45B	kUnihanCore2020	H
 U+2A472	kCihaiT	1564.402
 U+2A4AC	kCheungBauer	203/12;;nung1
+U+2A4CA	kStrange	S:41
 U+2A4CC	kCihaiT	1564.602
 U+2A4D0	kPhonetic	9
 U+2A4DB	kCihaiT	1565.102
@@ -109900,6 +110432,7 @@ U+2A4FD	kCihaiT	1565.602
 U+2A502	kPhonetic	1341
 U+2A503	kCihaiT	1566.302
 U+2A51B	kCihaiT	1567.204
+U+2A544	kStrange	I
 U+2A54A	kCihaiT	1568.302
 U+2A54B	kCihaiT	1568.303
 U+2A54C	kCihaiT	1568.401
@@ -109932,18 +110465,34 @@ U+2A64F	kCihaiT	1572.505
 U+2A65B	kCangjie	YUSTR
 U+2A65B	kCheungBauer	211/11;YUSTR;nak1
 U+2A65B	kUnihanCore2020	H
+U+2A68D	kStrange	S:40
+U+2A68E	kStrange	S:40
+U+2A6A5	kStrange	S:64 U
 U+2A6A9	kCangjie	RNXU
 U+2A6A9	kCheungBauer	030/16;RNXU;gwi1
 U+2A6A9	kUnihanCore2020	H
 U+2A6AE	kCihaiT	1577.502
+U+2A6D7	kStrange	O
+U+2A6D8	kStrange	O
+U+2A6D9	kStrange	O
+U+2A6DA	kStrange	O
+U+2A6DB	kStrange	O
+U+2A6DC	kStrange	O
+U+2A6DD	kStrange	O
+U+2A708	kStrange	K:U+30E2
 U+2A7DD	kUnihanCore2020	G
 U+2A848	kFenn	804G
+U+2A8B3	kStrange	H:U+3131
 U+2A8FB	kUnihanCore2020	G
 U+2A917	kUnihanCore2020	G
+U+2A941	kStrange	H:U+3131
 U+2AA30	kUnihanCore2020	G
 U+2AA36	kUnihanCore2020	G
 U+2AA58	kUnihanCore2020	G
+U+2AA72	kStrange	I:U+673F
+U+2AC76	kStrange	U
 U+2ADFF	kUnihanCore2020	H
+U+2AE9A	kStrange	U
 U+2AFA2	kUnihanCore2020	G
 U+2B127	kUnihanCore2020	G
 U+2B128	kUnihanCore2020	G
@@ -109982,6 +110531,9 @@ U+2B695	kUnihanCore2020	G
 U+2B696	kUnihanCore2020	G
 U+2B6AD	kUnihanCore2020	G
 U+2B6ED	kUnihanCore2020	G
+U+2B740	kStrange	I:U+4E94
+U+2B742	kStrange	K:U+30C4
+U+2B744	kStrange	I:U+4E45
 U+2B7A9	kUnihanCore2020	G
 U+2B7C5	kUnihanCore2020	G
 U+2B7E6	kUnihanCore2020	G
@@ -109990,37 +110542,59 @@ U+2B7FC	kUnihanCore2020	G
 U+2B806	kUnihanCore2020	G
 U+2B80A	kUnihanCore2020	G
 U+2B81C	kUnihanCore2020	G
+U+2B820	kStrange	I:U+5F0B:U+6208
+U+2B829	kStrange	I:U+5179
+U+2B84F	kStrange	I:U+6535
 U+2B851	kCihaiT	47.402
+U+2B851	kStrange	I:U+200B9
 U+2B8B8	kUnihanCore2020	G
+U+2B935	kStrange	F
+U+2B9A4	kStrange	K:U+30AB
+U+2B9AB	kStrange	K:U+30AB:U+30CA
+U+2BA23	kStrange	F
+U+2BA51	kStrange	I:U+9762:U+9763
+U+2BA66	kStrange	R:U+20C43
 U+2BAC7	kUnihanCore2020	G
+U+2BB2F	kStrange	U
 U+2BB5F	kUnihanCore2020	G
 U+2BB62	kUnihanCore2020	G
 U+2BB7C	kUnihanCore2020	G
 U+2BB83	kUnihanCore2020	G
 U+2BC1B	kUnihanCore2020	G
+U+2BC92	kStrange	F
+U+2BCCD	kStrange	K:U+30A6:U+30C4:U+30DB
 U+2BD77	kUnihanCore2020	G
 U+2BD87	kUnihanCore2020	G
 U+2BDF7	kUnihanCore2020	G
 U+2BE29	kUnihanCore2020	G
+U+2BE2A	kStrange	F:U+5F1C
 U+2BF6E	kFenn	586B
+U+2BFED	kStrange	I:U+6589
 U+2C029	kUnihanCore2020	G
 U+2C02A	kUnihanCore2020	G
+U+2C09B	kStrange	I:U+6728
 U+2C0A9	kUnihanCore2020	G
+U+2C0C7	kStrange	I:U+6979
 U+2C0CA	kUnihanCore2020	G
+U+2C1BB	kStrange	F
 U+2C1D5	kUnihanCore2020	G
 U+2C1D9	kUnihanCore2020	G
 U+2C1F9	kUnihanCore2020	G
 U+2C27C	kUnihanCore2020	G
 U+2C288	kUnihanCore2020	G
 U+2C2A4	kUnihanCore2020	G
+U+2C30B	kStrange	F
 U+2C317	kUnihanCore2020	G
+U+2C348	kStrange	U
 U+2C35B	kUnihanCore2020	G
 U+2C361	kUnihanCore2020	G
 U+2C364	kUnihanCore2020	G
 U+2C461	kFenn	450E
+U+2C47D	kStrange	U
 U+2C488	kUnihanCore2020	G
 U+2C494	kUnihanCore2020	G
 U+2C497	kUnihanCore2020	G
+U+2C52D	kStrange	I
 U+2C542	kUnihanCore2020	G
 U+2C613	kUnihanCore2020	G
 U+2C618	kUnihanCore2020	G
@@ -110033,11 +110607,16 @@ U+2C62F	kUnihanCore2020	G
 U+2C642	kUnihanCore2020	G
 U+2C64A	kUnihanCore2020	G
 U+2C64B	kUnihanCore2020	G
+U+2C6A9	kStrange	S:53 U
+U+2C6FF	kStrange	F
+U+2C711	kStrange	K:U+30AB
 U+2C72C	kUnihanCore2020	G
 U+2C72F	kUnihanCore2020	G
 U+2C79F	kUnihanCore2020	G
 U+2C7C1	kUnihanCore2020	G
 U+2C7FD	kUnihanCore2020	G
+U+2C886	kStrange	R
+U+2C889	kStrange	I
 U+2C8D9	kUnihanCore2020	G
 U+2C8DE	kUnihanCore2020	G
 U+2C8E1	kUnihanCore2020	G
@@ -110084,6 +110663,15 @@ U+2CCFF	kUnihanCore2020	G
 U+2CD02	kUnihanCore2020	G
 U+2CD03	kUnihanCore2020	G
 U+2CD0A	kUnihanCore2020	G
+U+2CD18	kStrange	F
+U+2CD1C	kStrange	F
+U+2CD20	kStrange	F
+U+2CD21	kStrange	F
+U+2CD22	kStrange	F
+U+2CD23	kStrange	F
+U+2CD24	kStrange	F
+U+2CD25	kStrange	F
+U+2CD26	kStrange	F
 U+2CD8B	kUnihanCore2020	G
 U+2CD8D	kUnihanCore2020	G
 U+2CD8F	kUnihanCore2020	G
@@ -110102,7 +110690,91 @@ U+2CE2A	kUnihanCore2020	G
 U+2CE7C	kUnihanCore2020	G
 U+2CE88	kUnihanCore2020	G
 U+2CE93	kUnihanCore2020	G
+U+2CEB0	kStrange	I:U+624D
+U+2CEB1	kStrange	I:U+6728
+U+2CEB7	kStrange	I:U+8C55
+U+2CEB9	kStrange	U
+U+2CEBB	kStrange	I:U+8C55
+U+2CEC0	kStrange	K:U+30B5
+U+2CECB	kStrange	K:U+30B5
+U+2CECC	kStrange	I:U+6771
+U+2CECD	kStrange	I:U+6771
+U+2CEDF	kStrange	U
+U+2CEF7	kStrange	C
+U+2CEFF	kStrange	C
+U+2CF00	kStrange	K:U+30B7:U+30C6
+U+2CF01	kStrange	O:U+0292
+U+2CF02	kStrange	C
+U+2CF04	kStrange	O:U+2125
+U+2CF2B	kStrange	I:U+60E2
+U+2CF61	kStrange	K:U+30B9
+U+2D03B	kStrange	H:U+3131
+U+2D047	kStrange	C
+U+2D05F	kStrange	U
+U+2D0B8	kStrange	I
+U+2D0BC	kStrange	U
+U+2D110	kStrange	I
+U+2D143	kStrange	C
+U+2D16B	kStrange	U
+U+2D1AC	kStrange	O
+U+2D1B1	kStrange	I
+U+2D1BE	kStrange	H:U+3131
+U+2D1C1	kStrange	I:U+543E
+U+2D1E9	kStrange	U
+U+2D2B2	kStrange	U
+U+2D2B6	kStrange	U
+U+2D337	kStrange	U
+U+2D359	kStrange	U
+U+2D37B	kStrange	C
+U+2D44A	kStrange	C
+U+2D4DD	kStrange	U
+U+2D57F	kStrange	I:U+459D
+U+2D580	kStrange	K:U+30B9
+U+2D588	kStrange	U
+U+2D5B2	kStrange	F U
+U+2D600	kStrange	U
+U+2D651	kStrange	U
+U+2D6A0	kStrange	I:U+620D
+U+2D6A5	kStrange	C
+U+2D6D5	kStrange	U
+U+2D6D6	kStrange	U
+U+2D6DD	kStrange	K:U+30F1
+U+2D80D	kStrange	I:U+6208
+U+2D81A	kStrange	H:U+3131
+U+2D8D5	kStrange	U
+U+2D928	kStrange	I
+U+2D92A	kStrange	C
+U+2D939	kStrange	H:U+3145
+U+2D94B	kStrange	H:U+3131
+U+2D95D	kStrange	I
+U+2D95F	kStrange	C
+U+2DA58	kStrange	H:U+3131
+U+2DA72	kStrange	I
+U+2DA97	kStrange	I
+U+2DB74	kStrange	U
+U+2DC3E	kStrange	I:U+6E8B
+U+2DEBD	kStrange	I:U+6771
+U+2DEF9	kStrange	U
+U+2DF86	kStrange	K:U+30B1 O
+U+2DF8B	kStrange	O
+U+2DF8F	kStrange	O
+U+2DF9B	kStrange	I:U+8C9E
+U+2E307	kStrange	K:U+30B9
+U+2E34C	kStrange	O
+U+2E34D	kStrange	O
+U+2E350	kStrange	O
+U+2E39B	kStrange	I:U+8272
+U+2E3B3	kStrange	U
+U+2E4E0	kStrange	C
 U+2E569	kUnihanCore2020	K
+U+2E5D8	kStrange	O
+U+2E5D9	kStrange	R
+U+2E695	kStrange	K:U+30B1
+U+2E78C	kStrange	H:U+3131
+U+2E8F1	kStrange	S:41
+U+2E979	kStrange	C
+U+2EA08	kStrange	O
+U+2EB5F	kStrange	U
 U+2F80C	kCihaiT	818.501
 U+2F81B	kCihaiT	73.201
 U+2F825	kCangjie	NWKS
@@ -110177,5 +110849,45 @@ U+2FA00	kCihaiT	1479.301
 U+2FA0A	kCihaiT	1519.311
 U+2FA0F	kCihaiT	1541.201
 U+2FA15	kCihaiT	1552.407
+U+30002	kStrange	M
+U+30004	kStrange	M:U+5F50
+U+30006	kStrange	I:U+7ACB
+U+3002A	kStrange	I:U+5F61
+U+30030	kStrange	U
+U+30031	kStrange	U
+U+300E6	kStrange	I:U+5411
+U+3016F	kStrange	U
+U+3018A	kStrange	B:U+3117
+U+301C8	kStrange	H:U+3131
+U+30255	kStrange	H:U+3131
+U+30333	kStrange	I
+U+30367	kStrange	I:U+5C0F
+U+30368	kStrange	I:U+5C0F
+U+30481	kStrange	H:U+3131
+U+304A5	kStrange	R:U+6214
+U+304A8	kStrange	I:U+5E7E
+U+30649	kStrange	U
+U+306C4	kStrange	I:U+6C34
+U+306C5	kStrange	I:U+6C34
+U+3080A	kStrange	U
+U+3088A	kStrange	U
+U+308B5	kStrange	I:U+753B
+U+308DE	kStrange	U
+U+30912	kStrange	H:U+3131
+U+30A07	kStrange	R
+U+30B67	kStrange	I:U+8001
+U+30BEE	kStrange	H:U+3131
+U+30C2F	kStrange	H:U+3131
+U+30C9E	kStrange	R:U+2BEFA
+U+30D3F	kStrange	U
+U+30D97	kStrange	H:U+3131
+U+30EDD	kStrange	S:43
+U+30EDE	kStrange	S:58
+U+30F18	kStrange	H:U+3131
+U+30F54	kStrange	S:76 U
+U+31044	kStrange	F
+U+3106A	kStrange	U
+U+3106C	kStrange	S:84
+U+31152	kStrange	U
 
 # EOF
