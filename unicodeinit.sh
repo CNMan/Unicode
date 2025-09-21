@@ -190,5 +190,25 @@ rm UCD.zip
 rm Unihan.zip
 git add .
 git commit -m "UCD and Unihan 15.1.0"
+rm -rf UCD/
+rm -rf Unihan/
+wget https://www.unicode.org/Public/zipped/16.0.0/UCD.zip
+wget https://www.unicode.org/Public/zipped/16.0.0/Unihan.zip
+7z x UCD.zip -oUCD
+7z x Unihan.zip -oUnihan
+rm UCD.zip
+rm Unihan.zip
+git add .
+git commit -m "UCD and Unihan 16.0.0"
+rm -rf UCD/
+rm -rf Unihan/
+wget https://www.unicode.org/Public/17.0.0/ucd/UCD.zip
+wget https://www.unicode.org/Public/17.0.0/ucd/Unihan.zip
+~/7zz x UCD.zip -oUCD
+~/7zz x Unihan.zip -oUnihan
+rm UCD.zip
+rm Unihan.zip
+git add .
+git commit -m "UCD and Unihan 17.0.0"
 
 git push -f origin master
